@@ -38,7 +38,11 @@
   detailsIsRoute: true
 -
   title: Health Dials
-  description: Health dials are a design concept I created to facilitate quick, automatic interpretation of clinical metrics.
+  description: >-
+    Health dials are a design concept I created to facilitate quick, automatic interpretation of clinical metrics.  The
+    visual concept is based on research in aviation, in which the researchers wanted a display that was as quickly
+    and automatically processed as possible.  Health dials could be used in situations where quick and accurate interpretation
+    is needed at a glance, such as in surgical settings, or even non-critical situations such as viewing lab results.
   detailsLink: /health-dials
   thumbnail: ./assets/images/health-dials.png
   active: true
@@ -72,24 +76,23 @@
   detailsLink: /patient-generator
   detailsIsRoute: true
 
-- title: Data Synthesizer
-  description: Dynamic, realtime data generator for Angular projects. Angular services that uses a WebAssembly module for the data generation.
-  detailsLink: https://www.npmjs.com/package/data-synthesizer
-  thumbnail: ./assets/images/npm-data-synthesizer-thumb.png
-  active: true
+
 - title: Graphical Asset Generator
   description: >-
-    Pulls slices directly from a Sketch file, and generates, svg images (in multiple colors), png images (in multiple
-    sizes and colors), and creates a custom webfont.
+    Uses the Abstract SDK to pull graphical assets directly from Abstract project files. I created Node.js scripts that
+    can automatically transform those raw assets into a custom web font or create .png files needed for mobile applications. Final
+    assets are then automatically pushed to a git repository that developers would access.  This greatly facilitates
+    how developers obtain the assets for a project.
   detailsLink:
   thumbnail:
   active: true
 
 - title: Click it, Capture it, Cogulator extension
   description: >-
-    Application written in Swift that facilitates getting realistic mouse click information into cogulator.  The application
-    monitors global mouse clicks and generates a cogulator application with coordinates and response times. Created to
-    facilitate modeling within our UX team.
+    A MacOS application written in Swift that monitors global mouse clicks in the background and generates a Cogulator script
+    containing all of the needed mouse coordinates and response times for a Cogulator model.  Cogulator is a fairly general
+    application, and I created this 'click it, capture it' application to automatically create a Cogulator script based on
+    UI interaction.
   detailsLink:
   thumbnail:
   active: true
