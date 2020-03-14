@@ -1,0 +1,177 @@
+
+<div class="container-fluid" style="margin-top:16px;">
+
+  <div class="row justify-content-end">
+    <div class="col col-auto"> <a class="btn btn-secondary" href="./demo/dial-graph/">Working Demo</a></div>
+    <div class="col col-auto"> <a class="btn btn-secondary" href="https://github.com/scheid/dial-graph">View Code on GitHub</a></div>
+  </div>
+
+  <div class=" story-text" style="overflow: hidden;">
+    <h2 style="margin-bottom: 32px;">Health Dials</h2>
+
+    <h4>INTRODUCTION</h4>
+    <p>What is the ultimate goal of a data visualization? What are the characteristics of the most
+      effective data visualizations? Part of the answers to these questions is that data visualizations
+      need to provide insight in order to be useful. Allowing the user to effortlessly convert the data
+      into information and eventually into knowledge is the ideal. To that end, visualizations should
+      accommodate our cognitive processes as much as possible, in order to minimize the resistance
+      between data and knowledge.  Our lens should be trained on how effectively the human can
+      consume the data visualization, not the visualization itself.</p>
+
+    <p>The health dial concept focuses on the effective display of patient health metrics, and draws
+      upon past research in aviation psychology for the proposed concept.</p>
+
+    <p>There are numerous types of patient summaries that both clinicians and patients have access to,
+      and numerous ways that patient information is visualized.  For example, text-based summaries
+      are common and may contain medication, diagnoses, allergies, and lab results.  However, this
+      conventional text-based patient summary requires that the user spend a significant amount of
+      time to attempt to figure out where or if the patient has an area that warrants attention.</p>
+
+    <p>Visualizing trends over time is the focus of a number of existing designs as well.  This is certainly
+      important to show in some situations. Health dials, however focus on those situations in which the
+      importance is in reading point in time measurements quickly.</p>
+
+    <p>Additional efforts to improve upon this use more visuospatial methods of presenting the information.
+      hGraph (http://hgraph.org/) is one such effort and takes advantage of a perceptual characteristic
+      often referred to as "emergent feature" (see Wickens, 1992). It is similar in design to a radar,
+      or spider chart, in that it plots metrics in a polar pattern to portray aspects of patient health.
+      The greater the distortion of the circular pattern, the more health problems the patient is
+      likely to have.</p>
+
+    <p>Health dials extend a vein
+      of past research in aviation, and more effectively use emergent features and global cognitive
+      processing than hGraph or other designs.</p>
+
+
+
+    <p>"Check-reading" historically refers to a pilot task of determining if a value or set of values
+      are acceptable or within tolerance.  It was more common in previous decades, when cockpits
+      did not have the automation and electronic displays of today’s aircraft.  The relevance of
+      check reading to healthcare lies in the quest of past research for designs that afford the
+      greatest amount of insight in the least amount of time and cognitive effort. (see Bainbridge
+      and Dorneich, 2009).</p>
+
+
+    <h4>PREVIOUS RESEARCH</h4>
+    <p>Dial indicator displays have been used extensively in many domains since their invention in the nineteenth century, especially in the automotive and aviation industries. In modern vehicles and cockpits, these physical gauges have been replaced by electronic displays. However, research into dial indicator design can teach us much about optimizing our current displays for human consumption.  Early pilots and drivers in particular were motivated to try to reduce the effort required to determine whether the overall machine or system was functioning normally.  Even before formal research was conducted, operators had been noted to physically reorient the gauges on their cockpit or dashboard such that the gauge pointers were all aligned with one another when readings were within tolerances.  They did this even though it meant that the text printed on the gauges would be at an angle and difficult to read, implying that the alignment was of greater importance than reading exact values. (Green, 1988b).</p>
+    <p>Since then, much research has confirmed the performance benefits of such “aligned” arrangements for check reading.  In an early study, Warrick and Greeter (1948) instructed participants to search for pointers that were out of alignment in a 4 x 4 matrix of physical dials.  Participants were able to easily detect when a dial was out of alignment even with very short exposure times.  The best performance was observed when the dials out of alignment were at 90 degrees to the ones in alignment.  This showed half the errors as dials that were 30 degrees out of alignment.  He also tested a diagonal alignment in which the dial pointers aligned for form diagonal as opposed to vertical or horizontal lines when aligned. He found that the diagonal alignment was inferior to the others.  It is important to note though with that study, that part of the task was to respond to the deviation by moving a toggle switch in the same or opposite direction to the deviation. That compatibility of response affected the response times, but is not relevant to the current paper.</p>
+    <p>Senders (1952) compared reading a pointer aligned type of display, in which normal values were all oriented in the same direction, with a non-aligned display in which an normal value was indicated by a red band instead of an aligned pointer.  The red band, non-aligned approach elicited an 18-fold increase in the mean time to detect abnormal values.</p>
+    <p>Ross, Katchmar, and Bell (1955) also used a 4x4 matrix of dials, and compared the effects of pointer alignment (e.g., all dials pointing in same direction when normal) with pointer symmetry (e.g, pointers in successive rows are mirror images of one another when normal).  Abnormal dials in both conditions were indicated by 90 degree misalignment from the others.  This study actually showed a slight performance benefit for pointer symmetry formats, however the effect was small.  Perhaps just as interesting is that each 4x4 arrangement was shown to participants for only 0.2 seconds, and even with such a short exposure to the stimulus, the mean error rate was only 8.7% for the pointer symmetry and 11.0% for the pointer alignment.</p>
+    <p>Dashevsky (1964) explored ways to further improve upon previously confirmed pointer alignment benefits.  His most significant finding was observed for a format he called “extended” in which a line was drawn, on the panel, between the physical pointers such that when values were normal, all pointers in a row or column formed a long continuous line extending the entire length or width of the matrix.  He compared this to the format of pointer alignment without extension lines, termed “open”. Reading errors were 85% lower for the “extended” format. It is worth noting that participants were only shown the stimulus for 0.5 seconds, and accuracy was still quite good with the simpler patterns. Figure 1 (a) and (b) are two of the arrangements used by Dashevsky.</p>
+    <p>There is evidence that humans would tend to process this type of “extended” arrangement of indicators in a holistic fashion, and would pre-attentively or automatically perceive the straight line (and breaks in the line) that forms when all measures are at their normal value. The continuous line formed by the indicators at their ideal values also creates an "emergent feature" which can be described as a global property of a collection of stimuli that is not present when each stimulus is viewed in isolation (Wickens, 1992).</p>
+    <p>Deshevsky's overall results from his multiple experiments imply a positive correlation between the simplicity of global pattern and user accuracy in detecting the deviations from the ideal.  It may follow from this that a single column of dials, forming a single line would show even better performance, provided that the height was small enough for the human viewer to consume the image in a single gaze.</p>
+    <p>Oatman (1964) continued on Dashevshy’s work and tested two different extended line formats: one he called “extended pointer” and another “extended line”.  The extended pointer format showed very good performance (98.9% for deviation overall, and 90.2% for location of deviated pointer) even for less than 1 second exposure to the stimulus. Figure 1 (c) illustrates the stimulus for the “extended pointer” condition.</p>
+    <p>Poynter and Czarnomski (1988) tested a number of different conditions, including comparing a digital/numeric display to an pointer alignment display.  For both detection and identifying location of an anomaly, the pointer alignment displays were superior to the digital displays.  For identifying exact values of a metric, the digital displays were understandably better.  They also tested different sized arrays, with either 4, 9, or 16 elements, and found that error rates did not increase with array size for the pointer alignment condition but increased linearly for the digital condition. This lends credence to the notion that the pointer alignment displays are being interpreted preattentively and automatically whereas the digital displays are interpreted much more consciously and serially.
+    </p>
+
+    <div>
+      <img src="assets/images/health-dials-prev-research.svg"/>
+
+    </div>
+
+
+    <h4>SUMMARY OF PREVIOUS RESEARCH</h4>
+    <p>
+      The relevant parts of these previous research studies are summarized below.
+      I. Using an alignment approach to indicate the “normal” positions for dials helps to elicit a more global perceptual processing of the overall visualization.  When certain conditions are met, this global processing is done preattentitvely and thus requires very little cognitive effort (Wickens, 1992).  Further, the addition of extension lines between dials amplifies the emergent feature of a solid line, and any break in that line is more readily detected.
+      II. Some variations on the “normal” position alignment of all dials pointed the same direction, such as symmetry, can show equivalent and even slightly more beneficial performance. However, for purposes of healthcare, and considering the much longer gaze times that a clinician would be exhibiting, these performances differences are inconsequential.
+      III. The exact orientation of the alignment is not important, whether the “normal” positions be aligned to 9 o’clock, 12  o’clock, or 3 o’clock.  However, that likely only was observed due to the 4 x 4 matrix arrangement of dials. Other arrangements are certainly possible, even a single column or row of dials. In those alternate arrangements, the orientation may show performance differences.
+    </p>
+    <h4>HEALTH DIAL CONCEPT AND DESIGN</h4>
+
+    <p>"Health dials" is a new design concept that draws upon the aforementioned research in order
+      to create a patient health display that affords maximum insight with minimum cognitive effort.
+      This could be greatly beneficial in situations such as surgery, where the doctor or nurse
+      should not be burdened with interpreting display symbology any more than absolutely
+      necessary.
+
+      Figure 2 illustrates the health dial design.  Health metrics are represented
+      using a simplified dial,
+      and all dials in a set are arranged to be aligned for normal values, and are
+      similar to the "extended pointer" condition used by Oatman (1964).  Each
+      metric value would initially be normalized in order for values to be plotted
+      on the health dials. For example, a blood pressure of 120/80 for an adult
+      would be normalized to have a health dial pointer that is exactly aligned
+      with "normal" (see Figure 2(a)).    The maximum misalignment would be 90
+      degrees from the aligned position. The normalized score used for determining the dial
+      rotation could be calculated in numerous ways, and the particular algorithm
+      used for this normalized scoring is intentionally not addressed by the health dial design.</p>
+
+    <p>The primary arrangement is a 1 x n, where only a single line would emerge.  Figure 2(a)
+      illustrates measures for a healthy person, and thus there is a single unbroken line
+      emerging from the overall display.</p>
+
+    <p>By contrast, a person with a number of health metrics that were out of normal ranges
+      would exhibit breaks in the continuous line.  Figure 2(b) and 2(c) show measures for
+      a person who has unhealthy levels for cholesterol, sleep, blood glucose, and waist
+      circumference.  Figure 2(b) shows a binary approach to dial alignment, where the dial
+      is either completely aligned or maximally out of alignment, based on in range or out
+      of range values, respectively.  Figure 2(c) illustrates a continuous approach to dial
+      alignment, where the exact amount of deviation from ideal alignment is based on the
+      normalized score. Each format has advantages and certain constraints on the data
+      available may dictate which format can be used.  The two-position format affords
+      the best detection of non-nominal values, but does not indicate the amount of
+      deviation from normal. The continuous position format allows better determination
+      of the exact normalized values at the expense of adding in some visual noise and
+      perhaps lowered detection.</p>
+
+    <p>The health dial design can readily accommodate sub-components of a metric (such as
+      the individual measures comprising total cholesterol), allowing effective
+      perception of the hierarchy while not disrupting the basic premise of the
+      linear emergent feature.  For example, the sub-components of blood pressure
+      and cholesterol can easily be displayed alongside other metrics that do not
+      have such components, such as weight.  Note in Figure 2, that the subcomponents
+      of blood pressure and cholesterol are nested within the outer circle and will
+      still align exactly with the global vertical “normal” line when they are within
+      normal range.</p>
+
+    <p>Health dials would lend themselves to numerous types of  other arrangements.
+      Previous research found that forming a matrix with the dials, such as a 4x4
+      or greater arrangement, elicits good performance even when exposure to the
+      stimulus is very brief, typically less than 0.5 seconds.  This implies that
+      health dials could be arranged to fit well on the many types of devices in
+      which doctors or patients would be consuming them.</p>
+
+    <p>Figures 3 and 4 show variations of the health dial design, in which each row
+      is a self-contained set of health dials.  These examples show the components
+      of lab tests and how sets of health dials can easily be stacked to achieve
+      higher data densities.  And based on results like those of Poynter and
+      Czarnomski (1988), higher data density should not degrade performance.
+      Figure 3 shows the binary approach  to alignment described above, and
+      Figure 4 shows the continuous approach. This would allow very quick
+      scanning of results that had many data points.  Figures 3 and 4 also
+      illustrate that even without color these displays are effective, and
+      so could be printed on paper, and be accessible to those who are color
+      blind without losing the benefits.</p>
+
+    <p>A working model of the health dial design has been created with standard,
+      open-source web-based components. Formal research still needs to be
+      conducted to determine a) the effectiveness of the health dial design,
+      b) if the check-reading research results transfer to the healthcare
+      setting for clinician use, and c) if the visualization can be readily
+      understood without training such as would be the case with consumers
+      using a patient portal.</p>
+
+    <div>
+      <img src="assets/images/health-dials.png"/>
+      <img src="assets/images/health-dial-examples.png"/>
+
+    </div>
+
+    <h4>REFERENCES</h4>
+    <p>Bainbridge and Dorneich (2009). Processes underlying human performance. Handbook of Aviation Human Factors, Second Edition.  John A. Wise, V. David Hopkin, Daniel J. Garland (eds.)</p>
+    <p>Dashevsky, S.D. (1964a). Check-Reading Accuracy As a Function of Pointer Alignment, Patterning, and Viewing Angle. Journal of Applied Psychology, -48( 6), 344-347.</p>
+    <p>Dashevsky, S.D. (1964b). Combining Check-Reading Accuracy and Quantitative Information in a Space-Saving Display. Journal of Applied Psychology, -48( 6), 348-350.</p>
+    <p>Green, P. (1988a). Human Factors and Automobile Instrument Panel Display Design (paper presented at the International Symposium on Optical Engineering and Industrial Sensing for Advance Manufacturing Technologies, Dearborn, MI). Bellingham, WA: Society of Photo-Optical Instrumentation Engineers, June.</p>
+    <p>Green, P. (1988b). Human Factors and Gauge Design: A Literature Review. University of Michigan Transportation Research Institute. Technical Report UMTRI-88-37. University of Michigan, Ann Arbor, MI.</p>
+    <p>Oatman, L.C. (1964a) Check-Reading Accuracy As a Function of an Extended-Pointer Dial Display (technical memorandum 10-64). Aberdeen Proving Ground, MD: U.S. Army Human Engineering Laboratories, July.</p>
+    <p>Oatman, L.C. (1964b) Check-Reading Accuracy As a Function of an Extended-Pointer Dial Display. Journal of Engineering Psychology, October, -3( 4), 123-131.</p>
+    <p>Poynter, D. and Czarnomski, A.J. (1988). Visual Performance with "Feature" and "Object" Displays (paper presented the International Symposium on Optical Engineering and Industrial Sensing for Advanced Manufacturing Technologies, Dearborn, MI). Bellingham, WA: Society of Photo-Optical Instrumentation Engineering, June.</p>
+    <p>Ross, S., Katchmar, L.T., and Bell, H. (1955). Multiple-Dial Check Reading: Pointer Symmetry Compared with Uniform Alignment. Journal of Applied Psychology, -39( 4), 215-218.</p>
+    <p>Senders, V.L. (1952). The Effect of Number of Dials on Qualitative Reading of a Multiple Dial Panel (WADC technical report 52-182). Wright-Patterson Air Force Base, OH: U.S. Air Force Wright Air Development Center.</p>
+    <p>Warrick, M.J. and Grether, W.F. (1948). The Effect of Pointer Alignment on Check Reading of Engine Instrument Panels (technical report MCREXD-694-17). Wright-Patterson Air Force Base, Dayton, OH: U.S. Air Force, Air Materiel Command, Aero Medical Laboratory.</p>
+
+
+  </div>
+
+</div>

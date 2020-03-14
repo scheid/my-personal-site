@@ -1,0 +1,9 @@
+
+<div class="d-none d-md-block" [ngStyle]="{'text-align': 'right', 'position': 'fixed', 'top': '157px' , 'right': '20px', 'transition-property':'opacity', 'transition-duration': '0.15s', 'opacity': navOpacity}">
+  <a [ngClass]="{'nav-btn-secondary': true, active: item.active}" (click)="setItemActive(item)" [routerLink]="item.path" *ngFor="let item of navItems">{{item.label}}</a>
+</div>
+<div class="story-text" style="margin-top:24px;">
+
+<router-outlet></router-outlet>
+
+</div>

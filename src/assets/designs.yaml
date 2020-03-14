@@ -1,0 +1,196 @@
+# more research.
+# maimonodes obs notes,
+# * Somehow include working examples of my power BI work, maybe by including hard-coded json data.
+# Creation of data visualization guidelines across the company
+# * My ux patent layout and interaction
+# * include the project 'intersection diagram', which is a comorbidity explorer, a unique way of seeing relationships in data
+# * homecare mobile write up for usability testing,
+# * clinical risk asssessment application; describe how I created the full stack for that: initial user research, design concepts, how to transform the existing excel spreadsheet into a ui, the front end and back end architecture, and all of the coding and deployment.
+# update starter kit: new thumbnail and description, include that I did snippets and stackblitz examples illustrating how to code certain designs that the UX team commonly proposes.
+# NOTE: for multi line string use the "block chomping indicator" to eliminate the trailing line break: >-
+
+-
+  title: Data Synthesizer
+  description: An angular data service that generates custom data structures in realtime. Delivered as an NPM package.
+  detailsLink: /data-synthesizer
+  thumbnail: ./assets/images/data-synthesizer-thumbnail.png
+  active: true
+  detailsIsRoute: true
+-
+  title: Internal Web Application for Clinical Risk Cases
+  description: >-
+    I transformed a confusing process into a web application for
+    tracking the potential clinical risk items.  I gathered business requirements, interviewed a users,
+    created UI designs in Sketch, created the client application in Angular, and created the back end as an web API in Swift.
+  detailsLink: /clinical-risk-items
+  thumbnail:
+  active: true
+  detailsIsRoute: true
+-
+  title: Water Valve Charts
+  description: A graphical design concept that I invented to represent very complex boolean flows in an understandable fashion.
+  extendedDescription: >-
+    This concept was used in a design for clinical decision support rules, in which many combinations of problems, medications,
+    allergies, etc. formed a clincal rule to determine a patient's eligibility or need.
+  detailsLink: /water-valve-chart
+  thumbnail: ./assets/images/water-valve-chart-thumbnail.png
+  active: true
+  detailsIsRoute: true
+-
+  title: Health Dials
+  description: Health dials are a design concept I created to facilitate quick, automatic interpretation of clinical metrics.
+  detailsLink: /health-dials
+  thumbnail: ./assets/images/health-dials.png
+  active: true
+  detailsIsRoute: true
+-
+  title: UI starter kit
+  description: >-
+    A UI development kit that greatly eases the effort needed for a development team to align with UX guidelines.
+    Delivered as a collection of git repositories that can be installed as NPM packages. The kit includes a custom Bootstrap 4
+    theme, a custom Kendo theme, our common icon set as a web font, custom Angular components, layout examples, font files.
+  detailsLink: /starter-kit
+  thumbnail: ./assets/images/starter-kit-screen-1.png
+  detailsIsRoute: true
+-
+  title: Opioid Data Visualization and Analysis
+  description: >-
+    Analyses and visualizations done with the R statistical program. can perhaps include plot samples, and my approach
+    for transforming the data and trying to answer questions with the visualizations.
+  thumbnail: ./assets/images/opioid-analyses-1.png
+  detailsLink: /demo/opioid/opioid-basic-statistics-smaller.html
+  detailsLinkLabel: View Sample Results
+  detailsIsRoute: false
+-
+  title: Patient record generator and clinical note search tool.
+  description: >-
+    Web API that will generate any number of sections of a patient record, as json data.  Various profiles
+    are supported based on primary disease. For example, a hypertension patient will show the correct ranges of vital
+    sign values, medications, and problems for a hypertension patient. Extensible so that any number of profiles can
+    be defined very easily in standard yaml files. Written in Swift using the Vapor framework.
+  thumbnail: ./assets/images/patient-gen-thumb-2.png
+  detailsLink: /patient-generator
+  detailsIsRoute: true
+
+- title: Data Synthesizer
+  description: Dynamic, realtime data generator for Angular projects. Angular services that uses a WebAssembly module for the data generation.
+  detailsLink: https://www.npmjs.com/package/data-synthesizer
+  thumbnail: ./assets/images/npm-data-synthesizer-thumb.png
+  active: true
+- title: Graphical Asset Generator
+  description: >-
+    Pulls slices directly from a Sketch file, and generates, svg images (in multiple colors), png images (in multiple
+    sizes and colors), and creates a custom webfont.
+  detailsLink:
+  thumbnail:
+  active: true
+
+- title: Click it, Capture it, Cogulator extension
+  description: >-
+    Application written in Swift that facilitates getting realistic mouse click information into cogulator.  The application
+    monitors global mouse clicks and generates a cogulator application with coordinates and response times. Created to
+    facilitate modeling within our UX team.
+  detailsLink:
+  thumbnail:
+  active: true
+
+
+
+#-
+#  title: Power BI Custom Components
+#  description:
+#  detailsLink:
+#  detailsIsRoute: true
+#  thumbnail:
+#  active: true
+-
+  title: Text Analysis of Clinical Notes
+  description: >-
+    Analyzed word patterns used in clinical notes obtained from http://mtsamples.com/. Specifically, an n-gram analysis was done,
+    using 2, 3, and 4 word phrases to see what word combinations clinicians use most often across notes.
+  detailsLink: ../demo/clinical-note-ngram/clinical-note-ngram.html
+  detailsLinkLabel: View Results
+  thumbnail: ./assets/images/quadgram-counts-thumbnail.png
+  active: true
+  detailsIsRoute: false
+-
+  title: Sepsis Workflow Design
+  description: The procedure for when a patient becomes septic in a hospital is well defined, but EHR's do not support these types of specific situations in their designs.  This design is an attempt to support clinical needs for sepsis by helping clinicians understand what has been done and what needs to be done next in a time-critical sepsis situation.
+  detailsLink: /demo/sepsis-pathways/#!/monitor?uselocaldata=true
+  detailsLinkLabel: View Demo
+  detailsIsRoute: false
+  thumbnail: ./assets/images/sepsis-pathways-thumbnail.png
+  active: true
+-
+  title: Cormorbidity Chord Diagram
+  description: In the context of population health, this chord diagram design illustrates how various populations and comorbidities can  be shown in a compact space.
+  detailsLink: /demo/comorbiditychord2/index.html
+  detailsIsRoute: false
+  thumbnail: ./assets/images/chord1.png
+  active: true
+-
+  title: Sankey Diagram for Hospital Readmissions
+  description: Uses a Sankey diagram to show the flow of patients over time, giving visual emphasis to readmissions.
+  detailsLink: /demo/d3-readmissions-sankey/index.html
+  detailsLinkLabel: View Demo
+  detailsIsRoute: false
+  thumbnail: ./assets/images/readmissions-sankey-smaller.png
+  active: true
+-
+  title: Clinical noting in a Dynamic Force View
+  description: A concept for adding problems, medications, and time durations to a note using a force view.
+  detailsLink: /demo/newnoteforceview/app.html
+  detailsLinkLabel: View Demo
+  detailsIsRoute: false
+  thumbnail: ./assets/images/force-view-note.png
+  active: true
+-
+  title: Medication Reconciliation; Design extension of Twinlist
+  description: This is a Twinlist-inspired medication reconciliation design.
+  detailsLink:
+  thumbnail: ./assets/images/med-rec-2-smaller.png
+  active: true
+#-
+#  title: Common Reconciliation for Medications, Problems, & Allergies
+#  description: Effort to make the user experience for reconciliation consistent across products and across the various parts of the patient record.  Reconciliation is typically only performed for medications, however clinicians would benefit from design consistency for reconciling all of the parts of the patient record.
+-
+  title: Flow Bar Chart
+  description: For certain types of data sets involving entities that can move into different categories across time, this type of chart can highlight the proportions of items that flow from category to category.
+  detailsLink:
+  thumbnail: ./assets/images/flowbar-final.svg
+  active: true
+#-
+#  title: Administrative Console Application
+#  description: Shows a more traditional administrative console application that I helped to design. This is a high fidelity prototype in ExtJs and d3js.
+#  detailsLink:
+#  thumbnail: ./assets/images/admin-console-smaller.png
+#  active: true
+-
+  title: Problem Reconciliation
+  description: Design similar to medication reconciliation, but for problems. Also uses a data service that I created. Related to the common reconciliation effort as a way to illustrate how the same user experience used for medications could also appy to problems.
+  detailsLink:
+  thumbnail: ./assets/images/problem-rec-screen-smaller.png
+  active: true
+-
+  title: Allscripts UX Poster Campaign
+  description: Our UX team all created posters to be displayed throughout company offices, each poster having a different theme related to design and usability. My poster explains the concept of cognitive load for the layperson.
+  detailsLink: /cognitive-load
+  thumbnail: ./assets/images/CognitiveTax_poster_02_thumbnail.png
+  active: true
+  detailsIsRoute: true
+-
+  title: Avenel Web Site
+  description: Received design from the Avenel EHR UX team for their initial web site design, and I implemented that in Angular, using Bootstrap 4 to make it a responsive design that is appropriate both for desktop and mobile phone form factors.
+  detailsLink: http://www.avenel.com
+  detailsLinkLabel: View Web Site
+  detailsIsRoute: false
+  thumbnail: ./assets/images/avenel-thumbnail.png
+  active: true
+-
+  title: Wellness signup
+  description: Created a custom web application using Angular and Ruby on Rails.  Users entered personal information and some medical information, and that data was encrypted both in transit (using https) and at rest while stored on the server (using AES-256).
+  detailsLink:
+  thumbnail: ./assets/images/wellness-signup-thumbnail.png
+  active: true
+  detailsLinkLabel: View Web Site
+  detailsIsRoute: false

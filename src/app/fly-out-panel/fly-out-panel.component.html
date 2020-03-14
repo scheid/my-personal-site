@@ -1,0 +1,8 @@
+
+<div [ngStyle]="{'background': bgColor}" #flyOutPanelContent>
+<div style="text-align: right"><button style="font-size:28px;" class="fly-out-close-button" (click)="hide()">&times;</button></div>
+<ng-content></ng-content>
+</div>
+
+
+<div #windowCover *ngIf="clickOffToClose && (displayType=='cover')" [ngClass]="{'window-cover': true, 'visible': visible, 'hidden': !visible}" (click)="hide()"></div>

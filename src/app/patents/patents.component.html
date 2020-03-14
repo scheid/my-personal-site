@@ -1,0 +1,32 @@
+<div style="padding: 16px;">
+
+  <!-- <span style="font-size:11px;color:#acacac;padding-right:8px;">{{idx+1}}</span>   -->
+<h2>U.S. Patents</h2>
+<h3 style="margin-top:32px;">Patents Granted</h3>
+<div style="margin-top: 16px;" *ngFor="let item of patentItems | patentStatus : 'granted'; let idx = index;">
+  <div style="line-height:1.1em;"><span >{{item.title}}</span></div>
+  <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">{{item.inventorAuthor}}</div>
+  <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">{{item.assignee}}</div>
+  <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">Granted {{formatDate(item.grantDate)}}</div>
+  <div *ngIf="item.resultLink" style="margin-left: 16px;font-size: 0.8rem;color: #666666"><a [href]="item.resultLink">View on Google Patents</a></div>
+</div>
+
+<h3 style="margin-top:32px;">Patents Pending</h3>
+<div style="margin-top: 16px;" *ngFor="let item of patentItems | patentStatus : 'patent-pending'; let idx = index;">
+  <div style="line-height:1.1em;"><span>{{item.title}}</span></div>
+  <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">{{item.inventorAuthor}}</div>
+  <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">{{item.assignee}}</div>
+  <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">Filed {{formatDate(item.filingCreationDate)}}</div>
+  <div *ngIf="item.resultLink" style="margin-left: 16px;font-size: 0.8rem;color: #666666"><a [href]="item.resultLink">View on Google Patents</a></div>
+</div>
+
+<h3 style="margin-top:32px;">Filed, Awaiting Response</h3>
+<div style="margin-top: 16px;" *ngFor="let item of patentItems | patentStatus : 'filed'; let idx = index;">
+  <div style="line-height:1.1em;"><span>{{item.title}}</span></div>
+  <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">{{item.inventorAuthor}}</div>
+  <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">{{item.assignee}}</div>
+  <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">Filed {{formatDate(item.filingCreationDate)}}</div>
+  <div *ngIf="item.resultLink" style="margin-left: 16px;font-size: 0.8rem;color: #666666"><a [href]="item.resultLink">View on Google Patents</a></div>
+</div>
+
+</div>

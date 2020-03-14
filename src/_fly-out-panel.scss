@@ -1,0 +1,79 @@
+
+body {
+    // used for the 'push' display mode; using 'body' may be questionable here though
+    margin: 0;
+    transition: margin-left 0.25s ease, margin-right 0.25s ease;
+}
+
+
+$asg-fly-out-panel-width: 250px;
+
+fly-out-panel {
+
+    .fly-out-panel {
+        position: fixed;
+        top: 0;
+        width: $asg-fly-out-panel-width;
+        //border: 1px solid #efefef;
+        background: #ffffff;
+        transition-property: left;
+        transition-duration: 0.25s;
+        height: 100vh;
+        z-index:100000;
+
+        box-shadow: 1px 1px 4px 2px rgba(50, 50, 50, 0.3);
+
+        .fly-out-close-button {
+            background:transparent;
+            cursor:pointer;
+            border:none;
+            padding: 16px;
+            font-size:20px;
+            color: #999999;
+
+        }
+    }
+
+
+    .fly-out-left-hide {
+        left: -$asg-fly-out-panel-width - 1;
+    }
+
+    .fly-out-left-show {
+        left: 0;
+    }
+
+    .fly-out-right-hide {
+        left: 100vw;
+    }
+
+    .fly-out-right-show {
+        left: calc(100vw - #{$asg-fly-out-panel-width});
+    }
+
+
+    .window-cover {
+        position:  fixed;
+        padding: 0;
+        margin: 0;
+        z-index: 10001;
+        background: black;
+        transition-property: opacity;
+        transition-duration: .3s;
+
+        &.visible {
+            display: block;
+            opacity: 0.2;
+        }
+
+        &.hidden {
+            display: none;
+            opacity: 0;
+
+        }
+
+    }
+
+
+}
+
