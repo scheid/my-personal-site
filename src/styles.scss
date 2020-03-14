@@ -1,1 +1,175 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import "./mixins";
+@import 'fly-out-panel';
+
+
+html {
+    font-size: 16px;
+}
+
+
+a {
+    color: #34779b;
+}
+
+body {
+    font-family: Oxygen, Lato, Helvetica, sans-serif;
+    color: #464646;
+
+}
+
+
+
+
+.story-text {
+     //font-family: Merriweather, serif;
+    font-family: Oxygen, Lato, Helvetica, sans-serif;
+     font-size: 17px;
+}
+
+
+h1, h2, h3, h4 {
+
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+blockquote {
+    font-family: Merriweather, serif;
+    font-style: italic;
+    font-weight: 300;
+    display: block;
+    margin-right: 80px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 0.9rem;
+    margin-left: 32px;
+    color: #666666;
+    width: 65%;
+
+    cite {
+        font-style: normal;
+        font-weight: 700;
+        display: block;
+        color: #666666;
+        font-size: 0.8rem;
+        margin-top: 8px;
+    }
+}
+
+
+svg {
+    .nav-btn {
+
+        cursor: pointer;
+
+        .nav-btn-rect {
+
+        }
+
+        .nav-btn-text {
+            text-anchor: middle;
+            fill: #343434;
+            font-size: 14pt;
+            font-weight: 400;
+            @include no-select();
+        }
+
+    }
+
+}
+
+.nav-btn-secondary {
+
+  background:#53bbf4;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left:16px;
+  padding-right:16px;
+  color: #333333;
+  border: 2px solid #53bbf4;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.active {
+    background: white;
+    border: 2px solid #53bbf4;
+    color: #333333;
+  }
+}
+
+
+//desktop
+@media only screen and (min-width: 769px) {
+
+
+    .fixed-app-header {
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100vw;
+        background: white;
+        height:140px;
+        z-index: 10000;
+    }
+
+    .main-app-wrapper {
+        margin-top: 155px;
+        margin-left:100px;
+        margin-right:100px;
+        margin-bottom:100px;
+    }
+}
+
+.nav-btn-mobile {
+    color:#464646;
+    padding:4px;
+    text-align: center;
+    border-radius: 0;
+
+}
+
+//mobile
+@media only screen and (max-width: 768px) {
+
+
+    .fixed-app-header {
+
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100vw;
+        background: white;
+        height:65px;
+        z-index: 10000;
+
+
+
+    }
+
+    .main-app-wrapper {
+
+        margin-top: 80px;
+        margin-left: 0;
+        margin-right: 0;
+        //margin-bottom: 50px;
+    }
+}
+
