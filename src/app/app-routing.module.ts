@@ -28,7 +28,7 @@ import {DetailsClinicalRiskItemsComponent} from './details-clinical-risk-items/d
 const routes: Routes = [
     {path: '', redirectTo: 'home', pathMatch: 'full'},
     {path: 'home', component: HomeComponent},
-    {path: 'designs', component: DesignsComponent},
+    {path: 'portfolio', component: DesignsComponent},
 
     {path: 'health-dials', component: DetailsHealthDialsComponent},
     {path: 'cognitive-load', component: DetailsCognitiveLoadComponent },

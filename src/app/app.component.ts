@@ -39,14 +39,14 @@ export class AppComponent implements OnInit {
       containerSelector: 'body',
       /*palette: ['#343434', '#EBE04F', '#FD6E30', '#6FCFC7'], */
       palette: ['#b1eb00', '#ff3fd4', '#ffac00', '#53bbf4', '#ff432e'],
-      labels: ['Home', 'Designs', 'Philosophy', 'Experience'],
-      views: ['home', 'designs', 'philosophy', 'experience/employment'],
+      labels: ['Home', 'Portfolio', 'Philosophy', 'Experience'],
+      views: ['home', 'portfolio', 'philosophy', 'experience/employment'],
         menu: [
             {label: 'Home',
             view: 'home'
             },
-            {label: 'Designs',
-                view: 'designs'
+            {label: 'Portfolio',
+                view: 'portfolio'
             },
             {label: 'Philosophy',
                 view: 'philosophy'
