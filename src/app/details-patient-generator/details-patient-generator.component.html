@@ -6,13 +6,16 @@
    </p>
 
 <p>
-  This is the motivation behind the patient data generator. I created this tool for designers creating static designs,
-  and also for folks creating coded prototypes.  For static prototypes, you can download
-  an SVG file of the patient record. For coded prototypes, you can download a json file containing the patient data.
+  This is the motivation behind the patient data generator. I created this tool for designers creating static designs
+  and coded prototypes. The data schema also complies with an internal format used by our EHR's so testing teams can also use the
+  service to populate EHR test environments with realistic data.
 
-  This tool uses techniques similar to a Monte Carlo simulation to create a realistic patient record.
+  For static prototypes, an SVG file format of the patient record can be downloaded.  For coded prototypes, a json file containing the patient data is available.
 
-  The generator is architected to be infinitely extensible through a set of data/configuration files (mostly csv files) that can all be edited to tweak the generator results.
+  This tool uses techniques similar to a Monte Carlo simulation to build up all of the parts of a patient record.
+
+  The generator is architected to be infinitely extensible through a set of data and configuration files (csv and yaml files)
+  Any number of new patient profiles can be created and existing ones can all be edited to tweak the generator results.
 
 </p>
 
@@ -41,29 +44,21 @@
 
   <h3>Details; how the generator works</h3>
   <p>
-  The generation process starts with a problem profile, and the various parts of the record are created based on the profile. For example,
-  using a diabetes profile, there are a certain number of problems defined, namely: diabetes mellitus, neuropathy, foot ulcer, elevated PSA, Upper Respiratory Infection, vitamin b, and iron.
-  Obviously vitamin b and iron are considered more medications and not problems, so they are ignored for problems and only used
-  when picked a medication.  As mentioned above, this profile definition can be edited and tweaked.
+  The generation process starts with a profile, which is a yaml file, and the various parts of the record are generated based on the contents of that profile.
+    For example, a diabetes profile may have general problems defined:
+    diabetes mellitus, neuropathy, foot ulcer, elevated PSA, and upper respiratory infection. A medication can be linked to
+    each of those problems as well.
+
 </p>
 
-<p>For each problem in the profile, a specific ICD-10 item is selected from a file of all ICD-10 items that could be associate with the general
-problem profile.  For example the profile problem 'diabetes mellitus' has about 150 specific ICD-10 problems to choose from. This design means that
-each diabetes patient record will contain slightly different diabetes (and other) problems.</p>
 
-<p>Also, for each profile problem, there is a medication file containing the appropriate medications prescribed for that problem. As with the
-problems, there are many similar medications for each problem, so that each generated patient record would contain different medications for each problem.</p>
-
-<p>This approach is true for all of the remaining parts of the record as well. A set of vital signs is defined for each profile as well,
-based on the types of vitals usually collected for that type of patient.  Appropriate vital sign value ranges are defined, and a random value is generated
-within that range. Specifically, the configuration file for the vital sign defines a mean and standard deviation, and then random, normally distributed
-values are chosen based on that.  The mean value, for example, for a hypertension profile would be higher for blood pressure than for other
-profiles.  Choosing random values in this way lends realism (because the values are a bit messy as in real life), and credibility (the values
+<p>Vital sign value ranges are defined in the profile, and a random value is generated
+within that range for each vital sign. Choosing random values in this way lends realism (because the values are a bit messy as in real life), and credibility (the values
   are believable for the patient profile).  The number of sets of vitals and the date intervals can also be controlled (e.g., if you want to include
 a set of vitals every month for the past two years.</p>
 
 
-<p>Patient demographic information is selected randomly from a set of about 15,000 fake patients.</p>
+<p>Patient demographic information is selected randomly from a set of about 15,000 non-existent patients.</p>
 
 
 <p>All of the above factors combine to ensure that many patient records can be generated for the same profile, and they

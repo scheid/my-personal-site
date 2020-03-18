@@ -22,6 +22,9 @@ import { PresentationsComponent } from './presentations/presentations.component'
 import {DetailsDataSynthesizerComponent} from './details-data-synthesizer/details-data-synthesizer.component';
 import {DetailsClinicalRiskItemsComponent} from './details-clinical-risk-items/details-clinical-risk-items.component';
 
+import {CareQualityDesignComponent} from './care-quality-design/care-quality-design.component';
+
+
 // NOTE: you can use named router outlets in your html file, and refer to them here using the 'outlet' field with the name as the value.
 //     http://blog.angular-university.io/angular2-router/
 
@@ -43,9 +46,10 @@ const routes: Routes = [
     {path: 'philosophy', component: PhilosophyComponent},
     {path: 'starter-kit', component: DetailsStarterKitComponent},
     {path: 'patient-generator', component: DetailsPatientGeneratorComponent},
-  { path: 'opioid-analyses', component: DetailsOpioidAnalysesComponent },
-  {path: 'data-synthesizer', component: DetailsDataSynthesizerComponent},
-  { path: 'clinical-risk-items', component: DetailsClinicalRiskItemsComponent},
+    {path: 'opioid-analyses', component: DetailsOpioidAnalysesComponent },
+    {path: 'data-synthesizer', component: DetailsDataSynthesizerComponent},
+    {path: 'clinical-risk-items', component: DetailsClinicalRiskItemsComponent},
+    {path: 'care-quality-design', component: CareQualityDesignComponent},
 
     {path: '**', redirectTo: 'home'}
 

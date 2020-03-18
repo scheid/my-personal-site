@@ -2,48 +2,78 @@
 
 <h3>UI Starter Kit</h3>
 
-<p>This is an HTML5 framework providing Allscripts common styles, behaviors, graphics, fonts, and UI components in a ready-to-use kit. This
-  was created to facilitate a development team implementing designs by relieving them of much of the repetitive coding that can
-  occur across projects.</p>
+  <p>The starter kit is a collection of repositories that are also NPM Packages. As a whole, the vkit
+    provides Allscripts common styles/themes, graphics, fonts, and UI components.  Using the NPM model allows developers
+    to easily update packages with no disruption to their application development.
+  </p>
+
+  <p>Products across my company have different capabilities and architectures, and not all products can completely align with our style guidelines. Different
+    development teams would use different combinations of packages. So, the starter kit is designed on a "cafeteria" model.
+    You can use only the packages that are appropriate for your product.</p>
 
 
-<h4>The starter kit answers these questions that a developer may have:</h4>
-<ul>
-  <li>How do I choose the appropriate combination of libraries up and down the web stack?  There are so many out there today for web apps.</li>
-  <li>Does Allscripts have a strategy for how to develop web UI's consistently across the company? It seems like development teams are duplicating effort by choosing different technologies and  re-creating common resources for each project, both in the UI and in the authentication layer. Can teams instead share the resources that all projects would have in common?</li>
-  <li>Fluency in web UI technologies; my developers are more oriented toward back end development and server side UI rendering. </li>
-  <li>My team doesn't have enough time to focus on all of the pieces of the UI: trying to figure out how to create the correct styling, where to get images/icons and how to integrate those correctly.</li>
-  <li>How are web applications built and deployed? What are the best practices to get the best performance?</li>
-</ul>
+  <h4>Packages in the Starter Kit</h4>
+
+  <table>
+    <tr>
+      <td>Customized Kendo Theme</td>
+      <td>Some of the development teams use Kendo UI for Angular (https://www.telerik.com/kendo-angular-ui),
+        and so I created a custom Kendo UI theme that aligns with the UX Visual Guidelines.</td>
+    </tr>
+
+    <tr>
+      <td>Custom Angular Components</td>
+      <td>A number of components in our UX guidelines are not available in either the ngBootstrap or Kendo component set.
+        These custom components fill that gap.</td>
+    </tr>
+
+    <tr>
+      <td>UX Common Icon Set</td>
+      <td>Our UX team has created a set of icons that are used across all of our products. I transformed all of the individual images
+        into a web font (similar to how FontAwesome works), which is very easy for development to use and update as we add new icons.</td>
+    </tr>
+
+    <tr>
+      <td>Fonts</td>
+      <td>Our team wanted to ensure a consistent typography across applications, and chose Roboto as the font we would recommend. Typically, a web application
+        may simply link to the Google fonts site to get the needed web font files. However,  many clients
+        that use our products are not directly connected to the Internet. So I was able to obtain
+        legal approval to distribute the font files with the web application to ensure the fonts would be available.</td>
+    </tr>
+
+  </table>
 
 
-<h4>Main benefits of the starter kit:</h4>
-<ul>
-  <li>The UI Starter Kit is a working project out of the box</li>
-  <li>Uses the Angular CLI, so developers can take advantage of all Angular CLI functionality.</li>
-  <li>Hit the ground running and focus on the product requirements, not the boiler plate of the UI solution.</li>
-  <li>UX styles are built into the kit.  I translated the UI style guide into working code, so developers don't have to.   The UX graphical assets are included and the UX component styling has been applied to the default Bootstrap styles.</li>
-  <li>"Cafeteria" model. Use only the parts that are useful to you, and leave the rest. The kit is intentionally NOT a prescriptive model that a team would have to commit to.</li>
-</ul>
+
+  <h4>Evolution</h4>
 
 
+  <p>The starter kit started out as an all-in-one solution that contained both the front end and back end code needed to get up and running on a new web project;
+  it was a complete angular project that included client-side user authentication code and server side code that worked with the angular authentication code.
+  The intent was to make it easy as possible for a dev team to immediately have all of the parts of a web project up and running.  Also, the assumption was
+    that by having all of those parts already coded into a working project, it would further lessen development effort.</p>
 
-<h4>Kendo UX Theme</h4>
+  <p>However, this approach proved to be overly prescriptive.  No development team was starting a project from the point that the starter kit was assuming.
+  All teams come to a new project or release of an existing project with existing back-end and/or front-end code. This fact made integration of an all-in-one starter
+  kit impractical. It was too difficult to try to include only the parts of the kit that the team wanted.  Also, as Angular updates very regularly,
+  the all-in-one project often broke with new Angular versions.</p>
 
-<p>Some of the development teams use Kendo UI, and so I created a custom Kendo UI theme to align with the UX Visual Guidelines.</p>
+  <p>There is no company-wide mandate for web technologies or UI libraries to be used for web applications. As such, teams have incredible latitude in how they implement
+  their solution. The initial version of the starter kit could not readily accommodate this reality.</p>
+
+  <p>The second version of the starter kit was much less prescriptive in that it allowed a team to just use parts that they wanted. For example,
+  if a team only wanted the UX common icons, those were designed without dependencies on other parts of the kit.  However the starter
+  kit was still contained in a single git repository that teams would have to download and manually pick out what they wanted.
+  This proved difficult to version and maintain both for me, and difficult for teams to accept and integrate starter kit updates/fixes.</p>
 
 
-<h4>UX Common Icons</h4>
+  <p>The third and current version of the starter kit still uses Git for version control, but now each repository is an independently installable NPM package, allowing
+    for more natural dependency management. Also, the starter kit has been divided
+  into packages based on my experience working with teams and how they want to consume the different parts. For example, each custom Angular component
+  is in a package, our common icons are in another, our fonts are in another.  There is a package for a custom Kendo theme, and another
+  package for the default bootstrap theme.  Also, the kit is currently structured to be as decoupled from specific angular versions as possible,
+  so that Angular updates are much less likely to break any part of the kit.  And if one part of the kit does break, it is easier to fix because
+  each of the packages can be independently updated.</p>
 
-<p>Our UX team has created numerous icons that are used across all of our products.</p>
-<p>I transformed these icons into a web font (e.g., like FontAwesome), along with all of the necessary css classes to use our common
-  icons. </p>
 
-
-<h4>Fonts</h4>
-
-<p>Our team wanted to ensure a consistent typography across applications, and chose Roboto as the font we would recommend. Typically, a web application
-  may simply link to the Google fonts site to get the needed web font files. However,  many clients
-  that use our products are not directly connected to the Internet. So I was able to obtain
-legal approval to distribute the font files with the web application to ensure the fonts would be available.</p>
 </div>

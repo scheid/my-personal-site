@@ -9,6 +9,8 @@
 # NOTE: to include a multi line string use the "block chomping indicator" (>-), which will allow you to break a field value
 #  across multiple lines, and will eliminate the trailing line break in the parsed value
 
+# include visual tags on each card: design, development, data visualization, research, statistical analyses
+
 -
   title: Data Synthesizer
   description: An angular data service that generates custom data structures in realtime. Delivered as an NPM package.
@@ -16,6 +18,8 @@
   thumbnail: ./assets/images/data-synthesizer-thumbnail.png
   active: true
   detailsIsRoute: true
+  tags: 
+    - development
 -
   title: Water Valve Chart
   description: >-
@@ -26,6 +30,10 @@
   thumbnail: ./assets/images/water-valve-chart-thumbnail.png
   active: true
   detailsIsRoute: true
+  tags:
+    - visualization
+    - development
+    - design
 -
   title: Health Dials
   description: >-
@@ -46,11 +54,22 @@
   detailsLink: /starter-kit
   thumbnail: ./assets/images/starter-kit-screen-1.png
   detailsIsRoute: true
+
+-
+  title: CareQuality Client Configuration and Management Application
+  description: >-
+    An application used to add customers to the CareQuality network, monitor various statistics related to document sharing, and manage the
+    customers over time.
+  thumbnail: ./assets/images/care-quality-design-1-thumbnail.png
+  detailsLink: /care-quality-design
+  detailsLinkLabel: More
+  detailsIsRoute: true 
 -
   title: Opioid Data Visualization and Analysis
-  description: >-
-    Analyses and visualizations done with the R statistical program. can perhaps include plot samples, and my approach
-    for transforming the data and trying to answer questions with the visualizations.
+  description: >-  
+   Analyses and visualizations done with the R
+   statistical program. can perhaps include plot samples, and my approach
+   for transforming the data and trying to answer questions with the visualizations.
   thumbnail: ./assets/images/opioid-analyses-1.png
   detailsLink: /demo/opioid/opioid-basic-statistics-smaller.html
   detailsLinkLabel: View Sample Results
@@ -71,7 +90,7 @@
   description: >-
       I transformed a confusing process into a web application for
       tracking the potential clinical risk items.  I gathered business requirements, interviewed a users,
-      created UI designs in Sketch, created the client application in Angular, and created the back end as an web API in Swift.
+      created UI designs in Sketch, created the client application in Angular, and created the back end as an web API in Swift running on Ubuntu Linux.
   detailsLink: /clinical-risk-items
   thumbnail: ./assets/images/clinical-risk-assessmen-thumbnail.png
   active: true
@@ -97,7 +116,8 @@
   thumbnail:
   active: true
 
-- title: \"Click it, Capture it\" Application for Generating Cogulator models
+- title: >
+    "Click it, Capture it" Application for Generating Cogulator models
   description: >-
     A MacOS application written in Swift that monitors global mouse clicks in the background and generates a Cogulator script
     containing all of the needed mouse coordinates and response times for a Cogulator model.  Cogulator is a fairly general
@@ -143,10 +163,10 @@
     By obtaining and analyzing usage data for a product I was designing for, I was able to create UI designs
     with a realistic type and amount of data. After initially designing in Sketch, I moved to prototyping directly in
     an Angular application, and used the data synthesizer to create the data.
-  detailsLink: 
-  detailsLinkLabel: 
+  detailsLink:
+  detailsLinkLabel:
   detailsIsRoute: true
-  thumbnail: 
+  thumbnail:
   active: true
 
 -
@@ -155,10 +175,10 @@
     Systematically determined user preferences for multiple icon options by creating a custom Angular application that presented
     icons to users in a series of trials. Used the method of paired comparisons (https://en.wikipedia.org/wiki/Pairwise_comparison)
     and analyzed data in R using the prefmod package.
-  detailsLink: 
-  detailsLinkLabel: 
+  detailsLink:
+  detailsLinkLabel:
   detailsIsRoute: true
-  thumbnail: 
+  thumbnail:
   active: true
 -
   title: Sepsis Workflow Design
@@ -170,15 +190,15 @@
   active: true
 
 -
-  title: Data Visualization Guidelines 
+  title: Data Visualization Guidelines
   description: >-
-    Created data visualization guidelines as a reference to be used across the company. The guidelines are mostly tool agnostic and 
+    Created data visualization guidelines as a reference to be used across the company. The guidelines are mostly tool agnostic and
     describe best practices for how to approach a data-orient project. Many people creating the data dashboards in my compnay
     use Power BI, so I did tailor the guidelines somewhat for that specific tool.
   detailsLink: /demo/data-vis-guidelines/index.html
   detailsLinkLabel: View Guidelines
   detailsIsRoute: false
-  thumbnail: 
+  thumbnail:
   active: true
 -
   title: Summative Usability Testing

@@ -15,7 +15,9 @@ import { DetailsWaterValveComponent } from './details-water-valve/details-water-
 import { DetailsStarterKitComponent } from './details-starter-kit/details-starter-kit.component';
 import { DetailsPatientGeneratorComponent } from './details-patient-generator/details-patient-generator.component';
 import { DetailsOpioidAnalysesComponent } from './details-opioid-analyses/details-opioid-analyses.component';
+
 import { PatentStatusPipe } from './pipes/patent-status.pipe';
+
 import { EmploymentComponent } from './employment/employment.component';
 import { EducationComponent } from './education/education.component';
 import { PatentsComponent } from './patents/patents.component';
@@ -27,6 +29,8 @@ import { ResearchComponent } from './research/research.component';
 import { LogActionService } from './services/log-action.service';
 import { DetailsDataSynthesizerComponent } from './details-data-synthesizer/details-data-synthesizer.component';
 import { DetailsClinicalRiskItemsComponent } from './details-clinical-risk-items/details-clinical-risk-items.component';
+import { CareQualityDesignComponent } from './care-quality-design/care-quality-design.component';
+import { FilterActiveDesignsPipe } from './pipes/filter-active-designs.pipe';
 
 @NgModule({
   declarations: [
@@ -48,7 +52,9 @@ import { DetailsClinicalRiskItemsComponent } from './details-clinical-risk-items
       PresentationsComponent,
     ResearchComponent,
     DetailsDataSynthesizerComponent,
-    DetailsClinicalRiskItemsComponent
+    DetailsClinicalRiskItemsComponent,
+    CareQualityDesignComponent,
+    FilterActiveDesignsPipe
   ],
   imports: [
       BrowserModule,
