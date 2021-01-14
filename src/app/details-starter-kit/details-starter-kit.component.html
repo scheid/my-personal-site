@@ -1,39 +1,50 @@
 <div class="container-fluid" style="margin-top:16px;">
 
-<h3>UI Starter Kit</h3>
 
-  <p>The starter kit is a collection of repositories that are also NPM Packages. As a whole, the vkit
-    provides Allscripts common styles/themes, graphics, fonts, and UI components.  Using the NPM model allows developers
+
+  <img style="float: right; clear: right;padding: 32px;" src="assets/images/starter-kit-screen-thumbnail.png"/>
+
+
+  <h2 style="margin-bottom: 32px;">UI Starter Kit</h2>
+
+
+
+  <p>The starter kit is a collection of UI related functionality, provided as NPM packages. As a whole, the starter kit
+    provides common styles/themes, graphics, fonts, and UI components to developers across the company.  Using the NPM model allows developers
     to easily update packages with no disruption to their application development.
   </p>
 
-  <p>Products across my company have different capabilities and architectures, and not all products can completely align with our style guidelines. Different
-    development teams would use different combinations of packages. So, the starter kit is designed on a "cafeteria" model.
-    You can use only the packages that are appropriate for your product.</p>
+  <p>Products across Allscripts use different technologies and architectures, and not all products can completely align with our style guidelines. Different
+    development teams need different combinations of packages. So, the starter kit is designed on a "cafeteria" model:
+    use only the packages that are appropriate for your product.</p>
 
 
-  <h4>Packages in the Starter Kit</h4>
+  <h3 style="margin-top: 32px;">Packages in the Starter Kit</h3>
 
   <table>
-    <tr>
+    <colgroup>
+      <col width="150"/>
+      <col width="*"/>
+    </colgroup>
+    <tr style="border-bottom: 1px solid #cacaca">
       <td>Customized Kendo Theme</td>
       <td>Some of the development teams use Kendo UI for Angular (https://www.telerik.com/kendo-angular-ui),
         and so I created a custom Kendo UI theme that aligns with the UX Visual Guidelines.</td>
     </tr>
 
-    <tr>
+    <tr style="border-bottom: 1px solid #cacaca">
       <td>Custom Angular Components</td>
       <td>A number of components in our UX guidelines are not available in either the ngBootstrap or Kendo component set.
         These custom components fill that gap.</td>
     </tr>
 
-    <tr>
+    <tr style="border-bottom: 1px solid #cacaca">
       <td>UX Common Icon Set</td>
       <td>Our UX team has created a set of icons that are used across all of our products. I transformed all of the individual images
         into a web font (similar to how FontAwesome works), which is very easy for development to use and update as we add new icons.</td>
     </tr>
 
-    <tr>
+    <tr style="border-bottom: 1px solid #cacaca">
       <td>Fonts</td>
       <td>Our team wanted to ensure a consistent typography across applications, and chose Roboto as the font we would recommend. Typically, a web application
         may simply link to the Google fonts site to get the needed web font files. However,  many clients
@@ -45,29 +56,19 @@
 
 
 
-  <h4>Evolution</h4>
+  <h3 style="margin-top: 32px;">Evolution</h3>
 
 
   <p>The starter kit started out as an all-in-one solution that contained both the front end and back end code needed to get up and running on a new web project;
-  it was a complete angular project that included client-side user authentication code and server side code that worked with the angular authentication code.
+  it was a complete Angular project that included client-side user authentication code and server side code that worked with the angular authentication code.
   The intent was to make it easy as possible for a dev team to immediately have all of the parts of a web project up and running.  Also, the assumption was
     that by having all of those parts already coded into a working project, it would further lessen development effort.</p>
 
-  <p>However, this approach proved to be overly prescriptive.  No development team was starting a project from the point that the starter kit was assuming.
-  All teams come to a new project or release of an existing project with existing back-end and/or front-end code. This fact made integration of an all-in-one starter
-  kit impractical. It was too difficult to try to include only the parts of the kit that the team wanted.  Also, as Angular updates very regularly,
-  the all-in-one project often broke with new Angular versions.</p>
+  <p>However, this approach proved to be overly prescriptive.  No development team was starting a project from scratch; there is always existing back-end and/or front-end code to accommodate.
+    This fact made an all-in-one starter kit impractical. Also, there is no company-wide mandate for web technologies or UI libraries to be used for web applications. As such, teams have incredible latitude in how they implement
+  their solution.</p>
 
-  <p>There is no company-wide mandate for web technologies or UI libraries to be used for web applications. As such, teams have incredible latitude in how they implement
-  their solution. The initial version of the starter kit could not readily accommodate this reality.</p>
-
-  <p>The second version of the starter kit was much less prescriptive in that it allowed a team to just use parts that they wanted. For example,
-  if a team only wanted the UX common icons, those were designed without dependencies on other parts of the kit.  However the starter
-  kit was still contained in a single git repository that teams would have to download and manually pick out what they wanted.
-  This proved difficult to version and maintain both for me, and difficult for teams to accept and integrate starter kit updates/fixes.</p>
-
-
-  <p>The third and current version of the starter kit still uses Git for version control, but now each repository is an independently installable NPM package, allowing
+  <p>The current version of the starter kit still uses Git for version control, but now each repository is an independently installable NPM package, allowing
     for more natural dependency management. Also, the starter kit has been divided
   into packages based on my experience working with teams and how they want to consume the different parts. For example, each custom Angular component
   is in a package, our common icons are in another, our fonts are in another.  There is a package for a custom Kendo theme, and another

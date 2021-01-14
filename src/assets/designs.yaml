@@ -1,13 +1,36 @@
 # more research.
 # maimonodes obs notes,
-# * Somehow include working examples of my power BI work, maybe by including hard-coded json data.
-# Creation of data visualization guidelines across the company
+
 # * My ux patent layout and interaction
+
+# how to sort? just by what I wanty to emphasize maybe, or time? recent to oldest?
+
+
+#  * recent voice assistant research, exploration, and prototype creation. researched alexa, google assistant approaches. combined with our research on questions that cliniciians
+#    would wnat to ask an assistant. in order to get the best understanding for the effectivness and design direction of such an assistant
+#    I trained a voice intent parser to recognize the various questions we wanted to include. Thinking though all of the utterances needed for
+#    each question also helps us document it for development. refined the utterances based on our natural interaction with the assistant,
+#    adding new utterances that felt natural in a conversational context and modifying existing ones.  The intent parser used the Snips NLU open
+#    source library, written in Python, and so I created a Django Web API that exposed our intent parser as web API calls.  An angular application
+#    I wrote (look in directory speech-recognition-demo) used the Web Voice API for voice recognition, which sent the users speech to the Django API for parsing. The patient data was obtained
+#   from teh patient data generator that I also created. This all allowed for a very realistic interaction with our voice assistant designs
+#   and allowed us to determine what felt most natural in that conversational context, because that experience sis very difficult to design an d prototype
+#   using traditional UI design tools.
+
+
+
+#  relationships builder for clinicians.  idea for clinicians to create their own clinical relationships from parts of the patient record such as
+#  medication and problem associations.
+#  would combine an automated relationship builder that the EHR could create for the user, while still allowing the user to also add
+#  their own releationships manually. see directory clinical-connections in webstorm-projects
 
 #
 # update starter kit: new thumbnail and description, include that I did snippets and stackblitz examples illustrating how to code certain designs that the UX team commonly proposes.
-# NOTE: to include a multi line string use the "block chomping indicator" (>-), which will allow you to break a field value
+
+
+# yaml NOTE: to include a multi line string use the "block chomping indicator" (>-), which will allow you to break a field value
 #  across multiple lines, and will eliminate the trailing line break in the parsed value
+
 
 # include visual tags on each card: design, development, data visualization, research, statistical analyses
 
@@ -18,8 +41,38 @@
   thumbnail: ./assets/images/data-synthesizer-thumbnail.png
   active: true
   detailsIsRoute: true
-  tags: 
+  tags:
     - development
+-
+  title: Summative Usability Testing
+  description: >-
+    One example of a large scale summative usability test. Traveled to numerous sites across the United States and conducted
+    usability test with a homecare mobile application.
+  detailsLink:
+  detailsIsRoute:
+  thumbnails:
+  active: true
+-
+  title: Job Discovery / User Requirements Exploration
+  description: >-
+    Our team traveled to large hospitals across the country to gather user requirements for a mobile application to be used by nurses. Across
+    the team, we shadowed and interviewed over 100 nurses. I personally interviewed and shadowed 10 of those.
+  detailsLink:
+  detailsIsRoute:
+  thumbnails:
+  active: true
+
+-
+  title: UI development Starter Kit
+  description: >-
+    A UI development kit for developers that greatly eases the effort needed to align with UX style guidelines.
+    Delivered as a collection of git repositories that are installed as NPM packages. Includes a custom Bootstrap 4
+    theme, a custom Kendo theme, a common icon set as a web font, custom Angular components, coded layout examples, and font files.
+  detailsLink: /starter-kit
+  thumbnail: ./assets/images/starter-kit-screen-1.png
+  detailsIsRoute: true
+  active: true
+
 -
   title: Water Valve Chart
   description: >-
@@ -34,6 +87,7 @@
     - visualization
     - development
     - design
+
 -
   title: Health Dials
   description: >-
@@ -45,28 +99,10 @@
   thumbnail: ./assets/images/health-dials.png
   active: true
   detailsIsRoute: true
--
-  title: UI development Starter Kit
-  description: >-
-    A UI development kit for developers that greatly eases the effort needed to align with UX style guidelines.
-    Delivered as a collection of git repositories that are installed as NPM packages. Includes a custom Bootstrap 4
-    theme, a custom Kendo theme, a common icon set as a web font, custom Angular components, coded layout examples, and font files.
-  detailsLink: /starter-kit
-  thumbnail: ./assets/images/starter-kit-screen-1.png
-  detailsIsRoute: true
 
 -
-  title: CareQuality Client Configuration and Management Application
-  description: >-
-    An application used to add customers to the CareQuality network, monitor various statistics related to document sharing, and manage the
-    customers over time.
-  thumbnail: ./assets/images/care-quality-design-1-thumbnail.png
-  detailsLink: /care-quality-design
-  detailsLinkLabel: More
-  detailsIsRoute: true 
--
   title: Opioid Data Visualization and Analysis
-  description: >-  
+  description: >-
    Analyses and visualizations done with the R
    statistical program. can perhaps include plot samples, and my approach
    for transforming the data and trying to answer questions with the visualizations.
@@ -74,6 +110,7 @@
   detailsLink: /demo/opioid/opioid-basic-statistics-smaller.html
   detailsLinkLabel: View Sample Results
   detailsIsRoute: false
+
 -
   title: Patient Record Generator
   description: >-
@@ -88,13 +125,25 @@
 -
   title: Web Application for Clinical Risk Cases
   description: >-
-      I transformed a confusing process into a web application for
+      I transformed a confusing and scattered process into a one-stop web application for
       tracking the potential clinical risk items.  I gathered business requirements, interviewed a users,
       created UI designs in Sketch, created the client application in Angular, and created the back end as an web API in Swift running on Ubuntu Linux.
   detailsLink: /clinical-risk-items
   thumbnail: ./assets/images/clinical-risk-assessmen-thumbnail.png
   active: true
   detailsIsRoute: true
+
+
+-
+  title: CareQuality Client Configuration and Management Application
+  description: >-
+    An application used to add customers to the CareQuality network, monitor various statistics related to document sharing, and manage the
+    customers over time.
+  thumbnail: ./assets/images/care-quality-design-1-thumbnail.png
+  detailsLink: /care-quality-design
+  detailsLinkLabel: More
+  detailsIsRoute: true
+
 
 -
   title: Intersection Diagram
@@ -116,17 +165,6 @@
   thumbnail:
   active: true
 
-- title: >
-    "Click it, Capture it" Application for Generating Cogulator models
-  description: >-
-    A MacOS application written in Swift that monitors global mouse clicks in the background and generates a Cogulator script
-    containing all of the needed mouse coordinates and response times for a Cogulator model.  Cogulator is a fairly general
-    application, and I created this 'click it, capture it' application to automatically create a Cogulator script based on
-    UI interaction.
-  detailsLink:
-  thumbnail: ./assets/images/click-it-capture-it-1-thumbnail.png
-  active: true
-
 
 
 #-
@@ -145,7 +183,7 @@
   detailsLink:
   detailsLinkLabel:
   thumbnail:
-  active:
+  active: false
   detailsIsRoute:
 -
   title: Text Analysis of Clinical Notes
@@ -174,7 +212,7 @@
   description: >-
     Systematically determined user preferences for multiple icon options by creating a custom Angular application that presented
     icons to users in a series of trials. Used the method of paired comparisons (https://en.wikipedia.org/wiki/Pairwise_comparison)
-    and analyzed data in R using the prefmod package.
+    and analyzed data in R using the prefmod package. I communicated results to stakeholders by rendering the R analyses using R Markdown and ggplot.
   detailsLink:
   detailsLinkLabel:
   detailsIsRoute: true
@@ -201,15 +239,6 @@
   thumbnail:
   active: true
 -
-  title: Summative Usability Testing
-  description: >-
-    One example of a large scale summative usability test. Traveled to numerous sites across the United States and conducted
-    usability test with a homecare mobile application.
-  detailsLink:
-  detailsIsRoute:
-  thumbnails:
-  active: true
--
   title: Cormorbidity Chord Diagram
   description: In the context of population health, this chord diagram design illustrates how various populations and comorbidities can  be shown in a compact space.
   detailsLink: /demo/comorbiditychord2/index.html
@@ -224,6 +253,19 @@
   detailsIsRoute: false
   thumbnail: ./assets/images/readmissions-sankey-smaller.png
   active: true
+
+- title: >
+    "Click it, Capture it" Application for Generating Cogulator models
+  description: >-
+    A MacOS application written in Swift that monitors global mouse clicks in the background and generates a Cogulator script
+    containing all of the needed mouse coordinates and response times for a Cogulator model.  Cogulator is a fairly general
+    application, and I created this 'click it, capture it' application to automatically create a Cogulator script based on
+    UI interaction.
+  detailsLink:
+  thumbnail: ./assets/images/click-it-capture-it-1-thumbnail.png
+  active: true
+
+
 
 -
   title: Medication Reconciliation; Design extension of Twinlist
@@ -251,7 +293,7 @@
   description: Design similar to medication reconciliation, but for problems. Also uses a data service that I created. Related to the common reconciliation effort as a way to illustrate how the same user experience used for medications could also appy to problems.
   detailsLink:
   thumbnail: ./assets/images/problem-rec-screen-smaller.png
-  active: true
+  active: false
 -
   title: Allscripts UX Poster Campaign
   description: Our UX team all created posters to be displayed throughout company offices, each poster having a different theme related to design and usability. My poster explains the concept of cognitive load for the layperson.
