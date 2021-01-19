@@ -35,6 +35,16 @@
 # include visual tags on each card: design, development, data visualization, research, statistical analyses
 
 -
+  title: Voice Assistant Coded Prototype
+  description: >-
+    Used Python (The Snips NLU library and Django), Angular, and Swift to create a clinical voice assistant that would allow our team to iteratively design our
+    clinical voice assistant. I coded custom views to allow dev and design teams to see the currently defined intents and slots in the training data set.
+  detailsLink: /voice-assistant
+  thumbnail: ./assets/images/voice-assistant-thumbnail.png
+  active: true
+  detailsIsRoute: true
+
+-
   title: Data Synthesizer
   description: An angular data service that generates custom data structures in realtime. Delivered as an NPM package.
   detailsLink: /data-synthesizer
@@ -52,15 +62,6 @@
   detailsIsRoute:
   thumbnails:
   active: true
--
-  title: Job Discovery / User Requirements Exploration
-  description: >-
-    Our team traveled to large hospitals across the country to gather user requirements for a mobile application to be used by nurses. Across
-    the team, we shadowed and interviewed over 100 nurses. I personally interviewed and shadowed 10 of those.
-  detailsLink:
-  detailsIsRoute:
-  thumbnails:
-  active: true
 
 -
   title: UI development Starter Kit
@@ -71,6 +72,15 @@
   detailsLink: /starter-kit
   thumbnail: ./assets/images/starter-kit-screen-1.png
   detailsIsRoute: true
+  active: true
+-
+  title: Job Discovery / User Requirements Exploration
+  description: >-
+    Our team traveled to large hospitals across the country to gather user requirements for a mobile application to be used by nurses. Across
+    the team, we shadowed and interviewed over 100 nurses. I personally interviewed and shadowed 10 of those.
+  detailsLink:
+  detailsIsRoute:
+  thumbnails:
   active: true
 
 -
@@ -276,12 +286,12 @@
 #-
 #  title: Common Reconciliation for Medications, Problems, & Allergies
 #  description: Effort to make the user experience for reconciliation consistent across products and across the various parts of the patient record.  Reconciliation is typically only performed for medications, however clinicians would benefit from design consistency for reconciling all of the parts of the patient record.
--
-  title: Flow Bar Chart
-  description: For certain types of data sets involving entities that can move into different categories across time, this type of chart can highlight the proportions of items that flow from category to category.
-  detailsLink:
-  thumbnail: ./assets/images/flowbar-final.svg
-  active: true
+#-
+#  title: Flow Bar Chart
+#  description: For certain types of data sets involving entities that can move into different categories across time, this type of chart can highlight the proportions of items that flow from category to category.
+#  detailsLink:
+#  thumbnail: ./assets/images/flowbar-final.svg
+#  active: true
 #-
 #  title: Administrative Console Application
 #  description: Shows a more traditional administrative console application that I helped to design. This is a high fidelity prototype in ExtJs and d3js.
@@ -301,14 +311,15 @@
   thumbnail: ./assets/images/CognitiveTax_poster_02_thumbnail.png
   active: true
   detailsIsRoute: true
--
-  title: Avenel Web Site
-  description: Received design from the Avenel EHR UX team for their initial web site design, and I implemented that in Angular, using Bootstrap 4 to make it a responsive design that is appropriate both for desktop and mobile phone form factors.
-  detailsLink: http://www.avenel.com
-  detailsLinkLabel: View Web Site
-  detailsIsRoute: false
-  thumbnail: ./assets/images/avenel-thumbnail.png
-  active: true
+#-
+# title: Avenel Web Site
+# description: Received design from the Avenel EHR UX team for their initial web site design, and I implemented that in Angular, using Bootstrap 4 to make it a responsive design that is appropriate both for desktop and mobile phone form factors.
+# detailsLink: http://www.avenel.com
+# detailsLinkLabel: View Web Site
+# detailsIsRoute: false
+#  thumbnail: ./assets/images/avenel-thumbnail.png
+#  active: true
+
 -
   title: Wellness Program Signup Application
   description: Created a custom web application using Angular and Ruby on Rails.  Users entered personal information and some medical information, and that data was encrypted both in transit (using https) and at rest while stored on the server (using AES-256).

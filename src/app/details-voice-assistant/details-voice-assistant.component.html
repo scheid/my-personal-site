@@ -1,0 +1,73 @@
+
+<h2>Clinical Voice Assistant Prototype</h2>
+
+<p>A planned feature of my  clinical software product was an intelligent voice assistant.
+</p>
+
+<p>We researched the approaches of Amazon's Alexa, and the Google Assistant</p>
+
+<p>We used the concept of user intents, slots, etc. to document what the voice assistant would support. This also helped me start to determine the best ways to communicate UX learnings to development
+in a format that would be most beneficial for them.</p>
+
+
+<p>As our voice assistant research proceeded, I realized there it could be beneficial to expand on and share the UX+AI knowledge I was acquiring.  I created a talk for World Usability Day inside of our company talking about how UX should think about and approach design for
+  artificial intelligence, because it is a new area with non-traditional design needs. You can view my slides for that talk <a href="assets/ux-and-ai.pdf">here</a>.</p>
+
+<!--
+Researched alexa, google assistant approaches. combined with our research on questions that cliniciians
+#    would wnat to ask an assistant. in order to get the best understanding for the effectivness and design direction of such an assistant
+#    I trained a voice intent parser to recognize the various questions we wanted to include. Thinking though all of the utterances needed for
+#    each question also helps us document it for development. refined the utterances based on our natural interaction with the assistant,
+#    adding new utterances that felt natural in a conversational context and modifying existing ones.  The intent parser used the Snips NLU open
+#    source library, written in Python, and so I created a Django Web API that exposed our intent parser as web API calls.  An angular application
+#    I wrote (look in directory speech-recognition-demo) used the Web Voice API for voice recognition, which sent the users speech to the Django API for parsing. The patient data was obtained
+#   from teh patient data generator that I also created. This all allowed for a very realistic interaction with our voice assistant designs
+#   and allowed us to determine what felt most natural in that conversational context, because that experience sis very difficult to design an d prototype
+#   using traditional UI design tools.
+-->
+
+<p>A working prototype that we could iterate on would be the most helpful to us in user research and testing. After some exploration of various tools,
+I figured out that I could use a real natural language engine combined with tools that I have built previously.</p>
+
+<p>I settled on the Snips NLU open source Python Library (see <a href="https://snips-nlu.readthedocs.io/en/latest">https://snips-nlu.readthedocs.io/en/latest/</a>) as the part
+that would parse the user's speech into a meaningful intent. An  interesting characteristic of Snips NLU is that the training data sets are all in yaml files,
+which are both easy to manually edit and easy to parse. To expose the natural language processing through a Web API, I used the Django Python Web Framework, which allowed me to keep all of the back end in the same Python project.</p>
+<p>The portion of this solution that users would interact with for testing was an Angular application that made calls to the Django Web application as appropriate.</p>
+
+<p>Because the voice assistant feature for our product would be dealing with patient health information, I was able to use the patient data generator tool that I had
+previously created.  This added a sense of realism to the data displayed by the voice assistant protottype.</p>
+
+
+
+<div>
+    <img style="border: 1px solid #e3e3e3;"  src="assets/images/voice-assistant-1.png"/>
+</div>
+
+
+
+
+<div>
+  <img style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-2.png"/>
+</div>
+
+
+
+
+
+<div>
+  <img style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-3.png"/>
+</div>
+
+
+
+
+<div>
+  <img style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-4.png"/>
+</div>
+
+
+
+
+<div>
+  <img  style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-5.png"/>
+</div>

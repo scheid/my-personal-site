@@ -31,6 +31,7 @@ import { DetailsDataSynthesizerComponent } from './details-data-synthesizer/deta
 import { DetailsClinicalRiskItemsComponent } from './details-clinical-risk-items/details-clinical-risk-items.component';
 import { CareQualityDesignComponent } from './care-quality-design/care-quality-design.component';
 import { FilterActiveDesignsPipe } from './pipes/filter-active-designs.pipe';
+import { DetailsVoiceAssistantComponent } from './details-voice-assistant/details-voice-assistant.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { FilterActiveDesignsPipe } from './pipes/filter-active-designs.pipe';
     DetailsDataSynthesizerComponent,
     DetailsClinicalRiskItemsComponent,
     CareQualityDesignComponent,
-    FilterActiveDesignsPipe
+    FilterActiveDesignsPipe,
+    DetailsVoiceAssistantComponent
   ],
   imports: [
       BrowserModule,

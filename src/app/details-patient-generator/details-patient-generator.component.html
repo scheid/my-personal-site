@@ -7,17 +7,18 @@
 
 <p>
   This is the motivation behind the patient data generator. I created this tool for designers creating static designs
-  and coded prototypes. The data schema also complies with an internal format used by our EHR's so testing teams can also use the
-  service to populate EHR test environments with realistic data.
+  and coded prototypes, and for development teams to use in test environments.
 
-  For static prototypes, an SVG file format of the patient record can be downloaded.  For coded prototypes, a json file containing the patient data is available.
+  For static designs created in Sketch, Illustrator, or Figma, an SVG file format of the patient record is available.  For coded prototypes, a simple json schema is available.
 
-  This tool uses techniques similar to a Monte Carlo simulation to build up all of the parts of a patient record.
+  The patient generator uses techniques similar to a Monte Carlo simulation to build up all of the parts of a patient record.
 
-  The generator is architected to be infinitely extensible through a set of data and configuration files (csv and yaml files)
+  The generator is architected to be extensible through editable configuration files.
   Any number of new patient profiles can be created and existing ones can all be edited to tweak the generator results.
 
 </p>
+
+  <p>I created the patient generator using the Swift programming language and it runs on an Ubuntu Linux server.</p>
 
 
   <h3>Live Examples</h3>
@@ -29,43 +30,37 @@
   <p style="font-weight: bold"><a href="/api/patients/profile/hypertension/svg/download">Patient profile for hypertension - SVG File</a></p>
   <p style="font-weight: bold"><a href="/api/patients/profile/hypertension/json/download">Patient profile for hypertension - JSON File</a></p>
 
-  <p style="font-weight: bold"><a href="/api/patients/profile/diabetes/svg/download">Patient profile for diabetes - SVG File</a></p>
-  <p style="font-weight: bold"><a href="/api/patients/profile/diabetes/json/download">Patient profile for diabetes - JSON File</a></p>
-
-  <p style="font-weight: bold"><a href="/api/patientlist/svg/download?fulldemographics=true">List of Patients - SVG File</a></p>
-  <p style="font-weight: bold"><a href="/api/patientlist/json/download?fulldemographics=true">List of Patients - JSON File</a></p>
+  <p style="font-weight: bold"><a href="/api/patients/profile/complexDiabetesHtnLipidGerd/svg/download">Patient profile for a complex patient - SVG File</a></p>
+  <p style="font-weight: bold"><a href="/api/patients/profile/complexDiabetesHtnLipidGerd/json/download">Patient profile for complex patient - JSON File</a></p>
 
   <p>Note that you can click the same links above multiple times and the exact values in the resulting profile, and the patient names, are different. This is intentional, and is because the values are generated
-    with a random number generator, and the values are always slightly different.  So, if you want 50 different diabetes patients, you can call the same url 50 times.</p>
-
-  <p style="font-weight: bold;"> <a href="/api/patients/generate">Interactive Patient Record and List Generator</a></p>
-
+    with a random number generator, and the values are always slightly different.</p>
 
 
   <h3>Details; how the generator works</h3>
   <p>
   The generation process starts with a profile, which is a yaml file, and the various parts of the record are generated based on the contents of that profile.
     For example, a diabetes profile may have general problems defined:
-    diabetes mellitus, neuropathy, foot ulcer, elevated PSA, and upper respiratory infection. A medication can be linked to
-    each of those problems as well.
+    diabetes mellitus, neuropathy, foot ulcer, elevated PSA, and upper respiratory infection. Specific ICD-10 coded problems will be assigned at generation time. A medication can be linked to
+    each of the problems as well.  The profile can also contain allergies, labs, vital signs, and encounters.
 
 </p>
 
-
-<p>Vital sign value ranges are defined in the profile, and a random value is generated
-within that range for each vital sign. Choosing random values in this way lends realism (because the values are a bit messy as in real life), and credibility (the values
-  are believable for the patient profile).  The number of sets of vitals and the date intervals can also be controlled (e.g., if you want to include
+<p>Vital sign and lab test value ranges are defined in the profile, and a random value is generated
+within that range for each value.This lends realism, and credibility (the values
+  are believable for the patient profile).  The number of sets of vitals/labs and the date intervals can also be controlled (e.g., if you want to include
 a set of vitals every month for the past two years.</p>
 
+  <p>The patient story is also a very important aspect of understanding and treating patients. The patient generator allows the story to be explicitly specified within a profile: how events occur over time
+  in a patient's life.</p>
 
-<p>Patient demographic information is selected randomly from a set of about 15,000 non-existent patients.</p>
+<p>Patient demographic information is selected randomly from a set of about 15,000 fabricated patients.</p>
 
 
 <p>All of the above factors combine to ensure that many patient records can be generated for the same profile, and they
 will all be a bit different.</p>
 
-<p>Finally, regarding performance, a single patient record can typically be generated in less than half a second. This is of course
-system dependent, but the time would be approximately that.</p>
+<p>Finally, regarding performance, a single patient record can typically be generated in less than half a second.</p>
 
 
 

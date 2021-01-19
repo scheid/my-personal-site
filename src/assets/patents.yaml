@@ -2,34 +2,34 @@
 -
     id: US-2017371976-A1
     source: google-patents
-    status: patent-pending
-    title: Generating a representative view for a multipage compilation of information 
+    status: granted
+    title: Generating a representative view for a multipage compilation of information
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas Stanton Brugler, Todd Michael Eischeid, Mark E. Molander, Kerry A. Ortega
     priorityDate: 2009-01-26
     filingCreationDate: 2017-09-08
     publicationDate: 2017-12-28
-    grantDate: 
+    grantDate: 2020-09-08
     resultLink: https://patents.google.com/patent/US20170371976A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/2b/a5/d5/7304497e5d3e16/US20170371976A1-20171228-D00000.png
 -
-    id: US-9967405-B2
+    id: US10491755B1
     source: google-patents
     status: granted
-    title: Adaptive auditory alerts 
+    title: Adaptive auditory alerts
     assignee: Allscripts Software, LLC
     inventorAuthor: Todd Michael Eischeid
     priorityDate: 2013-10-31
     filingCreationDate: 2017-03-18
-    publicationDate: 2018-05-08
-    grantDate: 2018-05-08
-    resultLink: https://patents.google.com/patent/US9967405B2/en
-    representativeFigureLink: https://patentimages.storage.googleapis.com/53/f4/49/7d69d306ac42a6/US09967405-20180508-D00000.png
+    publicationDate: 2019-11-26
+    grantDate: 2019-11-26
+    resultLink: https://patents.google.com/patent/US10491755B1/en
+    representativeFigureLink: https://patentimages.storage.googleapis.com/ec/6a/7d/547a8d726b7126/US10491755-20191126-D00000.png
 -
     id: US-9881147-B1
     source: google-patents
     status: granted
-    title: Systems and methods related to security credentials 
+    title: Systems and methods related to security credentials
     assignee: Allscripts Software, LLC
     inventorAuthor: David Thomas Windell, Todd Michael Eischeid, Scott David Bower
     priorityDate: 2012-12-28
@@ -41,99 +41,99 @@
 -
     id: US-2017060881-A1
     source: google-patents
-    status: patent-pending
-    title: Automatic disambiguation assistance for similar items in a set 
+    status: granted
+    title: Automatic disambiguation assistance for similar items in a set
     assignee: Allscripts Software, LLC
     inventorAuthor: Todd Michael Eischeid, Mary S. Johnson
     priorityDate: 2013-10-31
     filingCreationDate: 2016-09-11
     publicationDate: 2017-03-02
-    grantDate: 
+    grantDate: 2018-11-13
     resultLink: https://patents.google.com/patent/US20170060881A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/f7/1b/d5/963935ba8f4ca1/US20170060881A1-20170302-D00000.png
 -
-    id: US-2016110897-A1
+    id: US20160110897A1
     source: google-patents
-    status: patent-pending
-    title: Displaying computer dashboard information 
-    assignee: Nternational Business Machines Corporation
+    status: granted
+    title: Displaying computer dashboard information
+    assignee: International Business Machines Corporation
     inventorAuthor: Thomas S. Brugler, Vincent C. Conzola, Randall A. Craig, Todd M. Eischeid, Mark E. Molander
     priorityDate: 2011-07-11
     filingCreationDate: 2015-12-22
     publicationDate: 2016-04-21
-    grantDate: 
+    grantDate: 2019-03-05
     resultLink: https://patents.google.com/patent/US20160110897A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/ce/41/82/e68a12e2c6d63d/US20160110897A1-20160421-D00000.png
 -
     id: JP-2014089764-A
     source: google-patents
-    status: patent-pending
-    title: Method for showing user interface element in application 
+    status: granted
+    title: Method for showing user interface element in application
     assignee: International Business Machines Corporation
     inventorAuthor: A Ortega Kerry, Mark E Molander, Thomas Stanton Brugler, Todd M Eischeid
     priorityDate: 2009-01-26
     filingCreationDate: 2014-01-23
     publicationDate: 2014-05-15
-    grantDate: 
+    grantDate: 2016-06-01
     resultLink: https://patents.google.com/patent/JP2014089764A/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/bc/df/9d/344f5357fd4ad0/2014089764-3.png
 -
-    id: US-9600103-B1
+    id: US10452259B1
     source: google-patents
     status: granted
-    title: Method for ensuring use intentions of a touch screen device 
+    title: Method for ensuring use intentions of a touch screen device
     assignee: Allscripts Software, LLC
     inventorAuthor: Todd Michael Eischeid, David Windell
     priorityDate: 2012-12-31
-    filingCreationDate: 2013-03-15
-    publicationDate: 2017-03-21
-    grantDate: 2017-03-21
-    resultLink: https://patents.google.com/patent/US9600103B1/en
-    representativeFigureLink: https://patentimages.storage.googleapis.com/dd/e8/13/f57b9608c4b73e/US09600103-20170321-D00000.png
+    filingCreationDate: 2016-12-30
+    publicationDate: 2019-10-22
+    grantDate: 2019-10-22
+    resultLink: https://patents.google.com/patent/US10452259B1/en
+    representativeFigureLink: https://patentimages.storage.googleapis.com/96/6e/47/13c8239e358d72/US10452259-20191022-D00003.png
 -
     id: WO-2013111049-A1
     source: google-patents
     status: patent-pending
-    title: Movable search gui element for restricting search scope 
+    title: Movable search gui element for restricting search scope
     assignee: International Business Machines Corporation, Ibm United Kingdom Limited, IBM Japan Limited
     inventorAuthor: Vincent Charles CONZOLA, Mark Molander, Todd Michael EISCHEID, Thomas Stanton BRUGLER, Randall Avery CRAIG
     priorityDate: 2012-01-28
     filingCreationDate: 2013-01-22
     publicationDate: 2013-08-01
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/WO2013111049A1/en
-    representativeFigureLink: 
+    representativeFigureLink:
 -
     id: GB-2496499-A
     source: google-patents
     status: patent-pending
-    title: Interactive comparative analysis of multiple object data visualizations 
+    title: Interactive comparative analysis of multiple object data visualizations
     assignee: IBM
     inventorAuthor: Randall Avery Craig, Vincent Charles Conzola, Todd Michael Eischeid, Thomas Stanton Brugler, Mark Molander
     priorityDate: 2011-11-09
     filingCreationDate: 2012-10-30
     publicationDate: 2013-05-15
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/GB2496499A/en
-    representativeFigureLink: 
+    representativeFigureLink:
 -
     id: CA-2776131-A1
     source: google-patents
     status: patent-pending
-    title: Faceted and selectable tabs within ephemeral search results 
+    title: Faceted and selectable tabs within ephemeral search results
     assignee: International Business Machines Corporation, Mark Molander, Alejandro M. Ortiz, Todd M. Eischeid, Karen Mcwaters
     inventorAuthor: Mark Molander, Alejandro M. Ortiz, Todd M. Eischeid, Karen Mcwaters
     priorityDate: 2011-08-04
     filingCreationDate: 2012-05-07
     publicationDate: 2013-02-04
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/CA2776131A1/en
-    representativeFigureLink: 
+    representativeFigureLink:
 -
     id: US-8990735-B2
     source: google-patents
     status: granted
-    title: Enhanced tree views of data structures 
+    title: Enhanced tree views of data structures
     assignee: International Business Machiness Corporation
     inventorAuthor: Thomas S. Brugler, Vincent C. Conzola, Randall A. Craig, Todd M. Eischeid, Mark E. Molander
     priorityDate: 2012-03-06
@@ -143,23 +143,23 @@
     resultLink: https://patents.google.com/patent/US8990735B2/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/ad/5c/36/864ebf90bf54ba/US08990735-20150324-D00000.png
 -
-    id: US-2013086506-A1
+    id: US8799807B2
     source: google-patents
-    status: patent-pending
-    title: Organization and display of tabs and tab groups over hierarchical levels 
+    status: granted
+    title: Organization and display of tabs and tab groups over hierarchical levels
     assignee: Mark E. Molander, Thomas Brugler, Randall A. Craig, Vincent C. Conzola, Todd M. Eischeid
     inventorAuthor: Mark E. Molander, Thomas Brugler, Randall A. Craig, Vincent C. Conzola, Todd M. Eischeid
     priorityDate: 2011-09-30
     filingCreationDate: 2011-09-30
     publicationDate: 2013-04-04
-    grantDate: 
-    resultLink: https://patents.google.com/patent/US20130086506A1/en
-    representativeFigureLink: https://patentimages.storage.googleapis.com/49/94/72/404cf31cf62b07/US20130086506A1-20130404-D00000.png
+    grantDate: 2014-08-05
+    resultLink: https://patents.google.com/patent/US8799807B2/en
+    representativeFigureLink: https://patentimages.storage.googleapis.com/a9/52/44/3690ab42c603f9/US08799807-20140805-D00007.png
 -
     id: US-8959003-B2
     source: google-patents
     status: granted
-    title: Interactive data visualization for trend analysis 
+    title: Interactive data visualization for trend analysis
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas S. Brugler, Randall A. Craig, Vincent C. Conzola, Todd M. Eischeid, Mark E. Molander
     priorityDate: 2011-07-07
@@ -171,60 +171,60 @@
 -
     id: US-2012311473-A1
     source: google-patents
-    status: patent-pending
-    title: Alert event notification 
+    status: granted
+    title: Alert event notification
     assignee: International Business Machines Corporation
     inventorAuthor: Michael Nolterieke, Mark E. Molander, John P. Franks, Todd Eischeid
     priorityDate: 2011-06-02
     filingCreationDate: 2011-06-02
     publicationDate: 2012-12-06
-    grantDate: 
+    grantDate: 2015-05-26
     resultLink: https://patents.google.com/patent/US20120311473A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/e7/b8/7a/d0c914a975364d/US20120311473A1-20121206-D00000.png
 -
     id: US-2012304086-A1
     source: google-patents
-    status: patent-pending
-    title: Ephemeral object selections and fast-path gesturing for device control 
+    status: granted
+    title: Ephemeral object selections and fast-path gesturing for device control
     assignee: International Business Machines Corporation
     inventorAuthor: Mark Molander, Todd Eischeid, Patrick Bohrer
     priorityDate: 2011-05-23
     filingCreationDate: 2011-05-23
     publicationDate: 2012-11-29
-    grantDate: 
+    grantDate: 2014-05-13
     resultLink: https://patents.google.com/patent/US20120304086A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/01/d0/7f/f5745e4dca0f40/US20120304086A1-20121129-D00000.png
 -
     id: US-2012297326-A1
     source: google-patents
-    status: patent-pending
-    title: Scalable gesture-based device control 
+    status: granted
+    title: Scalable gesture-based device control
     assignee: International Business Machines Corporation
     inventorAuthor: Mark Molander, William G. Pagan, Devon Snyder, Patrick Bohrer, Todd Eischeid
     priorityDate: 2011-05-19
     filingCreationDate: 2011-05-19
     publicationDate: 2012-11-22
-    grantDate: 
+    grantDate: 2016-05-03
     resultLink: https://patents.google.com/patent/US20120297326A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/3e/a0/51/ab184db6ae270e/US20120297326A1-20121122-D00000.png
 -
     id: US-2012297347-A1
     source: google-patents
     status: patent-pending
-    title: Gesture-based navigation control 
+    title: Gesture-based navigation control
     assignee: International Business Machines Corporation
     inventorAuthor: Mark Molander, David Lection, Patrick Bohrer, Todd Eischeid
     priorityDate: 2011-05-19
     filingCreationDate: 2011-05-19
     publicationDate: 2012-11-22
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20120297347A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/fd/02/98/97d6162d63849f/US20120297347A1-20121122-D00000.png
 -
     id: US-9495273-B2
     source: google-patents
     status: granted
-    title: Systems and methods for displaying blade chassis data 
+    title: Systems and methods for displaying blade chassis data
     assignee: Lenovo Enterprise Solutions (Singapore) Pte. Ltd
     inventorAuthor: Todd M. Eischeid, Mary S. Johnson, Mark E. Molander, Ryan P. RANDOLPH, Devon D. Snyder
     priorityDate: 2011-03-02
@@ -237,7 +237,7 @@
     id: US-8635530-B2
     source: google-patents
     status: granted
-    title: Statistical filtering of data using graphical user interfaces in information technology systems 
+    title: Statistical filtering of data using graphical user interfaces in information technology systems
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas S. Brugler, Vincent C. Conzola, Randall A. Craig, Todd M. Eischeid, Mark E. Molander
     priorityDate: 2011-02-09
@@ -250,20 +250,20 @@
     id: US-2012166958-A1
     source: google-patents
     status: patent-pending
-    title: Content presentation in monitoring sessions for information technology systems 
+    title: Content presentation in monitoring sessions for information technology systems
     assignee: International Business Machines Corporation
     inventorAuthor: Keith D. Cramer, Todd M. Eischeid, Mark E. Molander, Gregory B. Pruett
     priorityDate: 2010-12-22
     filingCreationDate: 2010-12-22
     publicationDate: 2012-06-28
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20120166958A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/89/97/93/28b2dc35a915db/US20120166958A1-20120628-D00000.png
 -
     id: US-8806360-B2
     source: google-patents
     status: granted
-    title: Computing resource management in information technology systems 
+    title: Computing resource management in information technology systems
     assignee: International Business Machines Corporation
     inventorAuthor: Keith D. Cramer, Todd M. Eischeid, Mark E. Molander, Gregory B. Pruett
     priorityDate: 2010-12-22
@@ -272,102 +272,90 @@
     grantDate: 2014-08-12
     resultLink: https://patents.google.com/patent/US8806360B2/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/84/a5/2b/ab5b1d28d0acdc/US08806360-20140812-D00000.png
--
-    id: US-2012166957-A1
-    source: google-patents
-    status: patent-pending
-    title: Content presentation in management sessions for information technology systems 
-    assignee: International Business Machines Corporation
-    inventorAuthor: Keith D. Cramer, Todd M. Eischeid, Mark E. Molander, Gregory B. Pruett
-    priorityDate: 2010-12-22
-    filingCreationDate: 2010-12-22
-    publicationDate: 2012-06-28
-    grantDate: 
-    resultLink: https://patents.google.com/patent/US20120166957A1/en
-    representativeFigureLink: https://patentimages.storage.googleapis.com/0c/9b/36/f10a06dab68b45/US20120166957A1-20120628-D00000.png
+
 -
     id: US-2012151418-A1
     source: google-patents
-    status: patent-pending
-    title: Linking of a plurality of items of a user interface to display new information inferred from the plurality of items that are linked 
+    status: granted
+    title: Linking of a plurality of items of a user interface to display new information inferred from the plurality of items that are linked
     assignee: International Business Machines Corporation
     inventorAuthor: Vincent Charles Conzola, Todd Michael Eischeid, Mark E. Molander
     priorityDate: 2010-12-14
     filingCreationDate: 2010-12-14
     publicationDate: 2012-06-14
-    grantDate: 
+    grantDate: 2016-02-09
     resultLink: https://patents.google.com/patent/US20120151418A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/5e/2c/60/eb46405fe5bc62/US20120151418A1-20120614-D00000.png
 -
     id: US-2012079414-A1
     source: google-patents
-    status: patent-pending
-    title: Content presentation utilizing moveable fly-over on-demand user interfaces 
+    status: granted
+    title: Content presentation utilizing moveable fly-over on-demand user interfaces
     assignee: International Business Machines Corporation
     inventorAuthor: Todd M. Eischeid, John P. Franks, Mark E. Molander, Michael H. Nolterieke
     priorityDate: 2010-09-28
     filingCreationDate: 2010-09-28
     publicationDate: 2012-03-29
-    grantDate: 
+    grantDate: 2014-12-30
     resultLink: https://patents.google.com/patent/US20120079414A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/8b/88/93/bcb1ed1bd9dc76/US20120079414A1-20120329-D00000.png
 -
     id: US-2012066615-A1
     source: google-patents
-    status: patent-pending
-    title: Graphically indicating relevancy of electronic messages 
+    status: granted
+    title: Graphically indicating relevancy of electronic messages
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas S. Brugler, Vincent C. Conzola, Randall A. Craig, Todd M. Eischeid, Mark E. Molander
     priorityDate: 2010-09-09
     filingCreationDate: 2010-09-09
     publicationDate: 2012-03-15
-    grantDate: 
+    grantDate: 2015-01-06
     resultLink: https://patents.google.com/patent/US20120066615A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/97/e2/50/f6cf3f36cfe42b/US20120066615A1-20120315-D00000.png
 -
     id: US-2011271234-A1
     source: google-patents
-    status: patent-pending
-    title: Customizable branch navigational area control 
+    status: granted
+    title: Customizable branch navigational area control
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas S. Brugler, Vincent C. Conzola, Randall A. Craig, Todd M. Eischeid, Mark E. Molander
     priorityDate: 2010-04-29
     filingCreationDate: 2010-04-29
     publicationDate: 2011-11-03
-    grantDate: 
+    grantDate: 2013-07-23
     resultLink: https://patents.google.com/patent/US20110271234A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/3d/a7/c9/be537b952fd419/US20110271234A1-20111103-D00000.png
 -
     id: US-2011209082-A1
     source: google-patents
-    status: patent-pending
-    title: Multi-view user interface for server cabling display 
+    status: granted
+    title: Multi-view user interface for server cabling display
     assignee: International Business Machines Corporation
     inventorAuthor: Vincent C. Conzola, Todd Eischeid, Timothy Meserth, Mark E. Molander
     priorityDate: 2010-02-24
     filingCreationDate: 2010-02-24
     publicationDate: 2011-08-25
-    grantDate: 
+    grantDate: 2017-07-18
     resultLink: https://patents.google.com/patent/US20110209082A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/cf/eb/ba/046f0829d77280/US20110209082A1-20110825-D00000.png
 -
     id: US-2011191478-A1
     source: google-patents
     status: patent-pending
-    title: Quick access display 
+    title: Quick access display
     assignee: International Business Organization Name Machines Corporation
     inventorAuthor: Todd M. Eischeid, Daniel P. Kelaher, Jeffrey J. Smith, David T. Windell
     priorityDate: 2010-01-29
     filingCreationDate: 2010-01-29
     publicationDate: 2011-08-04
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20110191478A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/bc/65/b0/d429fefd123b25/US20110191478A1-20110804-D00000.png
 -
     id: US-8495497-B2
     source: google-patents
     status: granted
-    title: Graphical guides to aid user selection of groups of instruction packages 
+    title: Graphical guides to aid user selection of groups of instruction packages
     assignee: International Business Machines Corporation
     inventorAuthor: Vincent C. Conzola, Todd M. Eischeid, David B. Lection, Mark E. Molander
     priorityDate: 2010-01-28
@@ -379,86 +367,86 @@
 -
     id: JP-2010170548-A
     source: google-patents
-    status: patent-pending
-    title: Keystroke activated dynamic task 
+    status: granted
+    title: Keystroke activated dynamic task
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas Stanton Brugler, Todd M Eischeid, A Ortega Kerry, Mark E Molander
     priorityDate: 2009-01-26
     filingCreationDate: 2010-01-20
     publicationDate: 2010-08-05
-    grantDate: 
+    grantDate: 2015-04-30
     resultLink: https://patents.google.com/patent/JP2010170548A/en
-    representativeFigureLink: 
+    representativeFigureLink:
 -
     id: US-2010306694-A1
     source: google-patents
     status: patent-pending
-    title: Inline variable range and target selector slider control 
+    title: Inline variable range and target selector slider control
     assignee: International Business Machines Corporation
     inventorAuthor: Vincent Charles Conzola, Todd Michael Eischeid, Mary Sumner Johnson, Mark E. Molander
     priorityDate: 2009-06-02
     filingCreationDate: 2009-06-02
     publicationDate: 2010-12-02
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20100306694A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/9f/9a/86/0ade7a06965460/US20100306694A1-20101202-D00000.png
 -
     id: US-2010268672-A1
     source: google-patents
     status: patent-pending
-    title: Action manager for system management systems 
+    title: Action manager for system management systems
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas S. Brugler, Todd M. Eischeid, Mark E. Molander, Kerry A. Ortega
     priorityDate: 2009-04-21
     filingCreationDate: 2009-04-21
     publicationDate: 2010-10-21
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20100268672A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/US20100268672A1/US20100268672A1-20101021-D00000.png
 -
     id: US-2010218135-A1
     source: google-patents
     status: patent-pending
-    title: Cursor thumbnail displaying page layout 
+    title: Cursor thumbnail displaying page layout
     assignee: Thomas Stanton Brugler, Todd Michael Eischeid, Molander Mark E, Ortega Kerry A
     inventorAuthor: Thomas Stanton Brugler, Todd Michael Eischeid, Mark E. Molander, Kerry A. Ortega
     priorityDate: 2009-02-26
     filingCreationDate: 2009-02-26
     publicationDate: 2010-08-26
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20100218135A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/95/cc/9e/5dcf54493807e6/US20100218135A1-20100826-D00000.png
 -
     id: US-2010192076-A1
     source: google-patents
-    status: patent-pending
-    title: System, method, and computer program product for toggling back and forth between unformatted and formatted editable views of data 
+    status: granted
+    title: System, method, and computer program product for toggling back and forth between unformatted and formatted editable views of data
     assignee: Todd Michael Eischeid, Molander Mark E
     inventorAuthor: Todd Michael Eischeid, Mark E. Molander
     priorityDate: 2009-01-26
     filingCreationDate: 2009-01-26
     publicationDate: 2010-07-29
-    grantDate: 
+    grantDate: 2013-09-03
     resultLink: https://patents.google.com/patent/US20100192076A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/62/36/a6/11a2f38340a06c/US20100192076A1-20100729-D00000.png
 -
     id: US-2010185905-A1
     source: google-patents
-    status: patent-pending
-    title: Contextual and inline error resolution and user community 
+    status: granted
+    title: Contextual and inline error resolution and user community
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas S. Brugler, Todd M. Eischeid, Mark E. Molander, Kerry A. Ortega
     priorityDate: 2009-01-16
     filingCreationDate: 2009-01-16
     publicationDate: 2010-07-22
-    grantDate: 
+    grantDate: 2011-06-28
     resultLink: https://patents.google.com/patent/US20100185905A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/US20100185905A1/US20100185905A1-20100722-D00000.png
 -
     id: US-7669147-B1
     source: google-patents
     status: granted
-    title: Reorienting navigation trees based on semantic grouping of repeating tree nodes 
+    title: Reorienting navigation trees based on semantic grouping of repeating tree nodes
     assignee: International Business Machines Corporation
     inventorAuthor: Mark E. Molander, Todd Michael Eischeid, Kerry A. Ortega, Thomas Brugler
     priorityDate: 2009-01-02
@@ -471,20 +459,20 @@
     id: US-2009319937-A1
     source: google-patents
     status: patent-pending
-    title: Integrated multi tabbing 
+    title: Integrated multi tabbing
     assignee: International Business Machines Corporation
     inventorAuthor: Mark E. Molander, Vincent C. Conzola, Todd M. Eischeid
     priorityDate: 2008-06-23
     filingCreationDate: 2008-06-23
     publicationDate: 2009-12-24
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20090319937A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/US20090319937A1/US20090319937A1-20091224-D00000.png
 -
     id: US-8863013-B2
     source: google-patents
     status: Patent-pendinggranted
-    title: Generating a user defined page having representations of content in other pages 
+    title: Generating a user defined page having representations of content in other pages
     assignee: International Business Machines Corporation
     inventorAuthor: Todd Michael Eischeid, Jeffrey John Smith, David Thomas Windell
     priorityDate: 2008-04-01
@@ -497,33 +485,33 @@
     id: US-2009210405-A1
     source: google-patents
     status: patent-pending
-    title: Method, system, and apparatus for providing advice to users 
+    title: Method, system, and apparatus for providing advice to users
     assignee: Ortega Kerry A, Molander Mark E, Thomas Brugler, Todd Michael Eischeid
     inventorAuthor: Kerry A. Ortega, Mark E. Molander, Thomas Brugler, Todd Michael Eischeid
     priorityDate: 2008-02-15
     filingCreationDate: 2008-02-15
     publicationDate: 2009-08-20
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20090210405A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/US20090210405A1/US20090210405A1-20090820-D00000.png
 -
     id: US-2009210827-A1
     source: google-patents
     status: patent-pending
-    title: Web navigation user interface for orienting and organizing navigation links 
+    title: Web navigation user interface for orienting and organizing navigation links
     assignee: Thomas Stanton Brugler, Todd Michael Eischeid, Molander Mark E, Ortega Kerry A
     inventorAuthor: Thomas Stanton Brugler, Todd Michael Eischeid, Mark E. Molander, Kerry A. Ortega
     priorityDate: 2008-02-15
     filingCreationDate: 2008-02-15
     publicationDate: 2009-08-20
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20090210827A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/US20090210827A1/US20090210827A1-20090820-D00000.png
 -
     id: US-7539951-B1
     source: google-patents
     status: granted
-    title: Method and system of using navigation area controls and indicators for non-hierarchies 
+    title: Method and system of using navigation area controls and indicators for non-hierarchies
     assignee: International Business Machines Corporation
     inventorAuthor: Mark E. Molander, Todd Michael Eischeid, Kerry A. Ortega, Thomas Brugler
     priorityDate: 2008-02-07
@@ -536,20 +524,20 @@
     id: US-2009183101-A1
     source: google-patents
     status: patent-pending
-    title: Method, Apparatus and Program Storage Device for Providing a Gauge for Displaying Data that Includes Historical-Based Data 
+    title: Method, Apparatus and Program Storage Device for Providing a Gauge for Displaying Data that Includes Historical-Based Data
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas Stanton Brugler, Todd Michael Eischeid, Mark E. Molander, Kerry A. Ortega
     priorityDate: 2008-01-10
     filingCreationDate: 2008-01-10
     publicationDate: 2009-07-16
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20090183101A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/US20090183101A1/US20090183101A1-20090716-D00000.png
 -
     id: US-7904183-B2
     source: google-patents
     status: granted
-    title: Methods and apparatus for implementing manual and hybrid control modes in automated graphical indicators and controls 
+    title: Methods and apparatus for implementing manual and hybrid control modes in automated graphical indicators and controls
     assignee: International Business Machines Corporation
     inventorAuthor: Todd M. Eischeid, Mark E. Molander
     priorityDate: 2005-04-15
@@ -562,33 +550,33 @@
     id: US-2008229250-A1
     source: google-patents
     status: patent-pending
-    title: Method and system for navigation tree node level control 
+    title: Method and system for navigation tree node level control
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas S. Brugler, Todd M. Eischeid, Mark E. Molander, Kerry A. Ortega
     priorityDate: 2007-03-13
     filingCreationDate: 2007-03-13
     publicationDate: 2008-09-18
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20080229250A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/US20080229250A1/US20080229250A1-20080918-D00000.png
 -
     id: JP-2007207232-A
     source: google-patents
-    status: patent-pending
-    title: System and method of spatial/tabular data presentation 
+    status: granted
+    title: System and method of spatial/tabular data presentation
     assignee: International Business Machines Corporation
     inventorAuthor: Todd M Eischeid
     priorityDate: 2006-01-30
     filingCreationDate: 2007-01-25
     publicationDate: 2007-08-16
-    grantDate: 
+    grantDate: 2012-10-03
     resultLink: https://patents.google.com/patent/JP2007207232A/en
-    representativeFigureLink: 
+    representativeFigureLink:
 -
     id: US-7797632-B2
     source: google-patents
     status: granted
-    title: Method for exposing graphical user interface layout logic and parameters 
+    title: Method for exposing graphical user interface layout logic and parameters
     assignee: International Business Machines Corporation
     inventorAuthor: Thomas Rudolf Anzelde, Todd Michael Eischeid
     priorityDate: 2006-10-26
@@ -601,103 +589,103 @@
     id: US-2008072036-A1
     source: google-patents
     status: patent-pending
-    title: Apparatus and method for enhancing complexity in user-selected password 
+    title: Apparatus and method for enhancing complexity in user-selected password
     assignee: Thomas Rudolf Anzelde, Todd Michael Eischeid
     inventorAuthor: Thomas Rudolf Anzelde, Todd Michael Eischeid
     priorityDate: 2006-08-22
     filingCreationDate: 2006-08-22
     publicationDate: 2008-03-20
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20080072036A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/US20080072036A1/US20080072036A1-20080320-D00000.png
 -
     id: US-2006293767-A1
     source: google-patents
     status: patent-pending
-    title: Policy based automation rule selection control system 
+    title: Policy based automation rule selection control system
     assignee: Eischeid Todd M, Molander Mark E
     inventorAuthor: Todd Eischeid, Mark Molander
     priorityDate: 2005-06-28
     filingCreationDate: 2005-06-28
     publicationDate: 2006-12-28
-    grantDate: 
+    grantDate:
     resultLink: https://patents.google.com/patent/US20060293767A1/en
     representativeFigureLink: https://patentimages.storage.googleapis.com/f8/ff/09/05171a2704d8b6/US20060293767A1-20061228-D00000.png
 -
-    id: 
+    id:
     source: me
     status: filed
     title: Push-to-edit button on mobile device user interfaces
-    assignee: 
+    assignee:
     inventorAuthor: Todd Eischeid
-    priorityDate: 
+    priorityDate:
     filingCreationDate: Jun 23, 3009
-    publicationDate: 
-    grantDate: 
-    resultLink: 
-    representativeFigureLink: 
+    publicationDate:
+    grantDate:
+    resultLink:
+    representativeFigureLink:
 -
-    id: 
+    id:
     source: me
     status: filed
     title: Automatic text size adjustment based on user viewing distance
-    assignee: 
+    assignee:
     inventorAuthor: Todd Eischeid
-    priorityDate: 
+    priorityDate:
     filingCreationDate: Jun 24, 2009
-    publicationDate: 
-    grantDate: 
-    resultLink: 
-    representativeFigureLink: 
+    publicationDate:
+    grantDate:
+    resultLink:
+    representativeFigureLink:
 -
-    id: 
-    source: me
-    status: filed
+    id: US10811025B1
+    source: google-patents
+    status: granted
     title: Moderating system response using stress content of voice command
-    assignee: 
+    assignee: Allscripts Software, LLC
     inventorAuthor: Todd Eischeid
-    priorityDate: 
-    filingCreationDate: Jun 25, 2009
-    publicationDate: 
-    grantDate: 
-    resultLink: 
-    representativeFigureLink: 
+    priorityDate: 2013-12-31
+    filingCreationDate: 2009-06-25
+    publicationDate: 2010-10-20
+    grantDate:  2010-10-20
+    resultLink: https://patents.google.com/patent/US10811025B1/en
+    representativeFigureLink:
 -
-    id: 
+    id:
     source: me
     status: filed
     title: Geographically activated mobile device profile
-    assignee: 
+    assignee:
     inventorAuthor: Todd Eischeid
-    priorityDate: 
+    priorityDate:
     filingCreationDate: Jun 26, 2009
-    publicationDate: 
-    grantDate: 
-    resultLink: 
-    representativeFigureLink: 
+    publicationDate:
+    grantDate:
+    resultLink:
+    representativeFigureLink:
 -
-    id: 
+    id:
     source: me
     status: filed
     title: Reactive UI Elements Based on Probabilities/Analytics
-    assignee: 
+    assignee:
     inventorAuthor: Todd Eischeid, Ross Teague
-    priorityDate: 
+    priorityDate:
     filingCreationDate: Aug 7, 2009
-    publicationDate: 
-    grantDate: 
-    resultLink: 
-    representativeFigureLink: 
+    publicationDate:
+    grantDate:
+    resultLink:
+    representativeFigureLink:
 -
-    id: 
+    id:
     source: me
     status: filed
     title: Radial selection and path drawing to indicate item selection on mobile device user interfaces 
-    assignee: 
+    assignee:
     inventorAuthor: Todd Eischeid, Ross Teague
-    priorityDate: 
+    priorityDate:
     filingCreationDate: Aug 28, 2009
-    publicationDate: 
-    grantDate: 
-    resultLink: 
-    representativeFigureLink: 
+    publicationDate:
+    grantDate:
+    resultLink:
+    representativeFigureLink:

@@ -23,6 +23,7 @@ import {DetailsDataSynthesizerComponent} from './details-data-synthesizer/detail
 import {DetailsClinicalRiskItemsComponent} from './details-clinical-risk-items/details-clinical-risk-items.component';
 
 import {CareQualityDesignComponent} from './care-quality-design/care-quality-design.component';
+import {DetailsVoiceAssistantComponent} from './details-voice-assistant/details-voice-assistant.component';
 
 
 // NOTE: you can use named router outlets in your html file, and refer to them here using the 'outlet' field with the name as the value.
@@ -50,6 +51,7 @@ const routes: Routes = [
     {path: 'data-synthesizer', component: DetailsDataSynthesizerComponent},
     {path: 'clinical-risk-items', component: DetailsClinicalRiskItemsComponent},
     {path: 'care-quality-design', component: CareQualityDesignComponent},
+    {path: 'voice-assistant', component: DetailsVoiceAssistantComponent},
 
     {path: '**', redirectTo: 'home'}
 
