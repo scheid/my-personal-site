@@ -6,19 +6,6 @@
 # how to sort? just by what I wanty to emphasize maybe, or time? recent to oldest?
 
 
-#  * recent voice assistant research, exploration, and prototype creation. researched alexa, google assistant approaches. combined with our research on questions that cliniciians
-#    would wnat to ask an assistant. in order to get the best understanding for the effectivness and design direction of such an assistant
-#    I trained a voice intent parser to recognize the various questions we wanted to include. Thinking though all of the utterances needed for
-#    each question also helps us document it for development. refined the utterances based on our natural interaction with the assistant,
-#    adding new utterances that felt natural in a conversational context and modifying existing ones.  The intent parser used the Snips NLU open
-#    source library, written in Python, and so I created a Django Web API that exposed our intent parser as web API calls.  An angular application
-#    I wrote (look in directory speech-recognition-demo) used the Web Voice API for voice recognition, which sent the users speech to the Django API for parsing. The patient data was obtained
-#   from teh patient data generator that I also created. This all allowed for a very realistic interaction with our voice assistant designs
-#   and allowed us to determine what felt most natural in that conversational context, because that experience sis very difficult to design an d prototype
-#   using traditional UI design tools.
-
-
-
 #  relationships builder for clinicians.  idea for clinicians to create their own clinical relationships from parts of the patient record such as
 #  medication and problem associations.
 #  would combine an automated relationship builder that the EHR could create for the user, while still allowing the user to also add
@@ -131,7 +118,7 @@
   thumbnail: ./assets/images/patient-gen-thumb-2.png
   detailsLink: /patient-generator
   detailsIsRoute: true
-
+  active: true
 -
   title: Web Application for Clinical Risk Cases
   description: >-
@@ -153,6 +140,7 @@
   detailsLink: /care-quality-design
   detailsLinkLabel: More
   detailsIsRoute: true
+  active: true
 
 
 -
@@ -198,7 +186,7 @@
 -
   title: Text Analysis of Clinical Notes
   description: >-
-    Analyzed word patterns used in clinical notes obtained from http://mtsamples.com/. Specifically, an n-gram analysis was done,
+    Analyzed word patterns used in clinical notes obtained from mtsamples.com. Specifically, an n-gram analysis was done,
     using 2, 3, and 4 word phrases to see what word combinations clinicians use most often across notes.
   detailsLink: ../demo/clinical-note-ngram/clinical-note-ngram.html
   detailsLinkLabel: View Results
@@ -221,9 +209,9 @@
   title: Icon Preference Experiment
   description: >-
     Systematically determined user preferences for multiple icon options by creating a custom Angular application that presented
-    icons to users in a series of trials. Used the method of paired comparisons (https://en.wikipedia.org/wiki/Pairwise_comparison)
+    icons to users in a series of trials. Used the method of paired comparisons
     and analyzed data in R using the prefmod package. I communicated results to stakeholders by rendering the R analyses using R Markdown and ggplot.
-  detailsLink:
+  detailsLink: /icon-preference
   detailsLinkLabel:
   detailsIsRoute: true
   thumbnail:

@@ -11,12 +11,14 @@
 
 <p>I maintain a public NPM package for the data synthesizer, which can be found at: <a href="https://www.npmjs.com/package/data-synthesizer">https://www.npmjs.com/package/data-synthesizer</a></p>
 
-<p>The data synthesizer is an Angular service that can randomly generate large, hierarchical data sets in real time.  The data generation is highly and easily configurable, and very fast, using a Web Assembly module that I developed for random number generation.</p>
+<p>The data synthesizer is an Angular service that can randomly generate large, hierarchical data sets in real time.  The data generation is highly and easily configurable, and very fast.</p>
 
+<p>I created a Web Assembly (wasm) module in the C programming language specifically for the random number generation, which uses the Mersenne Twister (source code is <a href="https://github.com/scheid/prng-wasm">here</a>). The other part of the data synthesizer is an
+Angular service written in Typescript that interfaces with the Web Assembly module</p>
 
-<p>Adding realistic data to a design (e.g., from usage analytics or subject matter experts) can either help to validate the designs or highlight where the designs need improvement.
+<p>Why did I create this tool? Adding realistic, representative data to a design (e.g., from usage analytics or subject matter experts) can either help to validate the designs or highlight where the designs need improvement.
   Often it is prohibitive to create the data manually, and inefficient to hard code it into a Sketch or Figma drawing.
-  Creating prototypes in Angular combined with the data synthesizer allows me to very easily add realistic data to scale and test the design.
+  Angular UI prototypes combined with the data synthesizer allow me to very easily add realistic data to scale and more effectively test the designs.
 </p>
 
-<p>I decided that others could find this useful as well, and so I now maintain it on the NPM repository.</p>
+<p>I decided that others could find this useful as well, and so I now maintain it on the public NPM repository.</p>

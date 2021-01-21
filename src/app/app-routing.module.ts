@@ -24,6 +24,7 @@ import {DetailsClinicalRiskItemsComponent} from './details-clinical-risk-items/d
 
 import {CareQualityDesignComponent} from './care-quality-design/care-quality-design.component';
 import {DetailsVoiceAssistantComponent} from './details-voice-assistant/details-voice-assistant.component';
+import {DetailsIconPreferenceComponent} from './details-icon-preference/details-icon-preference.component';
 
 
 // NOTE: you can use named router outlets in your html file, and refer to them here using the 'outlet' field with the name as the value.
@@ -52,6 +53,7 @@ const routes: Routes = [
     {path: 'clinical-risk-items', component: DetailsClinicalRiskItemsComponent},
     {path: 'care-quality-design', component: CareQualityDesignComponent},
     {path: 'voice-assistant', component: DetailsVoiceAssistantComponent},
+    {path: 'icon-preference', component: DetailsIconPreferenceComponent},
 
     {path: '**', redirectTo: 'home'}
 
