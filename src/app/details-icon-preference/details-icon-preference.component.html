@@ -2,10 +2,29 @@
 
 <h3>Case Study for Status Icon Preferences Test</h3>
 
+<p>
+  <a class="btn btn-secondary" href="/demo/icon-study-analyses/icon-prefs-analyses-main-set.html">View the analyses</a>
+</p>
 
 <p>During a particular design phase for a product feature, there was a lot of discussion (and disagreement) among UX, developers, and product managers, around
 which set of icons best represents various status conditions, but there was no existing data on user perceptions of the icons.
   So, the goal of this study was to obtain more objective, data-driven answers by quantifying user preferences.</p>
+
+
+<p>There are numerous ways to obtain user preference ratings: direct rank ordering of the options and Likert-type ratings of the options being two.
+  Directly asking users to rank order a set of items is straightforward, but cognitively difficult with larger sets of
+  items (around 6 or more), and so the results may not be valid. Likert-type rankings may result in fairly accurate assessments of each option, however,
+  ties are inevitable, and a true ranking would not emerge.  Also with the above methods, there is no indication of the strength of the preference.</p>
+
+
+<p>The process used for the current study, called <a href="https://en.wikipedia.org/wiki/Pairwise_comparison">pairwise (or paired) comparisons</a>, is both cognitively simple, provides
+  an unequivocal ranking, and also gives the strength of preference.
+  In this approach, each icon option is compared with every other icon option; only two options are compared at a given time. One downside of this approach is the high
+  number of comparisons required of the user.
+  The <a href="https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model">Bradley-Terry-Luce model</a>
+  was applied to the preferences data in order to scale the preferences. Specifically the <a href="https://cran.r-project.org/web/packages/prefmod/index.html">‘prefmod’ R statistical package</a>  was used
+</p>
+
 
 <p>Three status conditions, ‘not started’, ‘in progress’, and ‘completed’ were evaluated.  While the icons will be used in a specific product, a secondary goal
   is to generalize user preferences to use the status icons across products.</p>
@@ -17,19 +36,4 @@ which set of icons best represents various status conditions, but there was no e
   R Markdown to generate nicely formatted output. </p>
 
 
-<p>
-<a class="btn btn-secondary" href="/demo/icon-study-analyses/icon-prefs-analyses-main-set.html">View the analyses</a>
-</p>
-
-<p>There are numerous ways to obtain user preference ratings: direct rank ordering of the options and Likert-type ratings of the options being two.
-  Directly asking users to rank order a set of items certainly has face validity, however such a ranking is cognitively difficult with larger sets of
-  items (around 6 or more), and so the results may not be valid. Likert-type rankings may result in fairly accurate assessments of each option, however,
-  ties are inevitable, and a true ranking would not emerge.  Also with the above methods, there may not be an indication of the strength of the preference.</p>
-
-
-<p>The process used for the current study is <a href="https://en.wikipedia.org/wiki/Pairwise_comparison">pairwise (or paired) comparisons</a> ; a method first used by Thurstone in 1927.
-  In this approach, each icon option is compared with every other icon option; only two options are compared at a given time.
-  The <a href="https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model">Bradely-Terry-Luce model</a>
-  was applied to the preferences data in order to scale the preferences. Specifically the <a href="https://cran.r-project.org/web/packages/prefmod/index.html">‘prefmod’ R statistical package</a>  was used
-</p>
 

@@ -34,23 +34,23 @@ export class ExperienceComponent implements OnInit {
           {path: 'presentations', label: 'Presentations'}
       ];
 
-    this.route.events.subscribe(evt => {
+      this.route.events.subscribe(evt => {
 
       if ( evt instanceof NavigationEnd ) {
-        // console.log('route changed', evt);
-        let i = 0;
+          // console.log('route changed', evt);
+          let i = 0;
 
-        for (i = 0; i < me.navItems.length; i++) {
+          for (i = 0; i < me.navItems.length; i++) {
 
-          const viewBase = me.navItems[i].path;
+            const viewBase = me.navItems[i].path;
 
-         // console.log(evt.urlAfterRedirects.split('/'));
+           // console.log(evt.urlAfterRedirects.split('/'));
 
-          // match the path of the route and use that to set active item in nav
-          if (evt.urlAfterRedirects.split('/')[2] === viewBase) {
-            me.setItemActive(me.navItems[i]);
+            // match the path of the route and use that to set active item in nav
+            if (evt.urlAfterRedirects.split('/')[2] === viewBase) {
+              me.setItemActive(me.navItems[i]);
+            }
           }
-        }
       }
     });
 

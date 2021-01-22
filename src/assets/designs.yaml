@@ -161,7 +161,7 @@
     how developers obtain the assets for a project.
   detailsLink:
   thumbnail:
-  active: true
+  active: false
 
 
 
@@ -188,7 +188,7 @@
   description: >-
     Analyzed word patterns used in clinical notes obtained from mtsamples.com. Specifically, an n-gram analysis was done,
     using 2, 3, and 4 word phrases to see what word combinations clinicians use most often across notes.
-  detailsLink: ../demo/clinical-note-ngram/clinical-note-ngram.html
+  detailsLink: /demo/clinical-note-ngram/clinical-note-ngram.html
   detailsLinkLabel: View Results
   thumbnail: ./assets/images/quadgram-counts-thumbnail.png
   active: true
@@ -199,10 +199,10 @@
     By obtaining and analyzing usage data for a product I was designing for, I was able to create UI designs
     with a realistic type and amount of data. After initially designing in Sketch, I moved to prototyping directly in
     an Angular application, and used the data synthesizer to create the data.
-  detailsLink:
-  detailsLinkLabel:
-  detailsIsRoute: true
-  thumbnail:
+  detailsLink: /demo/product-xyz-usage-analytics/index.html
+  detailsLinkLabel: View Analyses
+  detailsIsRoute: false
+  thumbnail: ./assets/images/usage-analytics-thumbnail-1.png
   active: true
 
 -

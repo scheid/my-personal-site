@@ -11,8 +11,7 @@
 
   Further complicating this is that patient health records usually have a fair amount of incomplete and messy data.
 
-  To create believable patient profiles, hypothetical data
-  has to be generated in a very specific way.
+  To create believable patient profiles, hypothetical data has to be generated in a very specific way.
    </p>
 
 <p>
@@ -52,7 +51,8 @@
   The generation process starts with a profile, which is a yaml file, and the various parts of the record are generated based on the contents of that profile.
     For example, a diabetes profile may have general problems defined:
     diabetes mellitus, neuropathy, foot ulcer, elevated PSA, and upper respiratory infection. Specific ICD-10 coded problems will be assigned at generation time. A medication can be linked to
-    each of the problems as well.  The profile can also contain allergies, labs, vital signs, and encounters.
+    each of the problems as well.  The profile can also contain allergies, labs, vital signs, and encounters. All values can be tailored to be within certain ranges that make
+    sense for the profile you are creating, and you can specify how the values might change over time.
 
 </p>
 
@@ -67,10 +67,7 @@ a set of vitals every month for the past two years.</p>
 <p>Patient demographic information is selected randomly from a set of about 15,000 fabricated patients.</p>
 
 
-<p>All of the above factors combine to ensure that many patient records can be generated for the same profile, and they
-will all be a bit different.</p>
-
-<p>Finally, regarding performance, a single patient record can typically be generated in less than half a second.</p>
+<p>A single patient record can typically be generated in less than half a second.</p>
 
 
 

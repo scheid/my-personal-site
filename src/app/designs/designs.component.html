@@ -18,7 +18,7 @@
               <img [src]="item.thumbnail" style="width:99%;max-width:315px;flex-grow: 0;align-self: flex-start">
             </a>
 
-            <img *ngIf="!item.detailsLink || !item.detailsIsRoute" [src]="item.thumbnail" style="width:99%;max-width:315px;flex-grow: 0;align-self: flex-start">
+            <img *ngIf="!item.detailsLink && !item.detailsIsRoute" [src]="item.thumbnail" style="width:99%;max-width:315px;flex-grow: 0;align-self: flex-start">
 
 
           </div>
