@@ -45,17 +45,17 @@
   description: >-
     One example of a large scale summative usability test. Traveled to numerous sites across the United States and conducted
     usability test with a homecare mobile application.
-  detailsLink:
-  detailsIsRoute:
-  thumbnails:
+  detailsLink: /homecare-summative-testing
+  detailsIsRoute: true
+  thumbnail: ./assets/images/homecare-summative-1-thumbnail.png
   active: true
 
 -
   title: UI development Starter Kit
   description: >-
-    A UI development kit for developers that greatly eases the effort needed to align with UX style guidelines.
-    Delivered as a collection of git repositories that are installed as NPM packages. Includes a custom Bootstrap 4
-    theme, a custom Kendo theme, a common icon set as a web font, custom Angular components, coded layout examples, and font files.
+    A UI development kit that eases the effort needed to align with UX style guidelines.
+    It is a collection of git repositories that are installed as NPM packages. Includes a custom Bootstrap 4
+    theme, a custom Kendo UI theme, a common icon web font, custom Angular components, coded layout examples, and font files.
   detailsLink: /starter-kit
   thumbnail: ./assets/images/starter-kit-screen-1.png
   detailsIsRoute: true
@@ -67,7 +67,7 @@
     the team, we shadowed and interviewed over 100 nurses. I personally interviewed and shadowed 10 of those.
   detailsLink:
   detailsIsRoute:
-  thumbnails:
+  thumbnail:
   active: true
 
 -
@@ -111,10 +111,10 @@
 -
   title: Patient Record Generator
   description: >-
-    Web API that will generate any number of sections of a patient record, as json data.  Various profiles
-    are supported based on primary disease. For example, a hypertension patient will show the correct ranges of vital
-    sign values, medications, and problems for a hypertension patient. Extensible so that any number of profiles can
-    be defined very easily in standard yaml files. Written in Swift using the Vapor framework.
+    Web API that generates patient records, as json data.  Various profiles
+    are supported based on primary disease, and will show the realistic ranges of vital
+    sign values, medications, and problems for the given profile. Extensible; unlimited number of profiles can
+    be defined. Written in Swift using the Vapor framework.
   thumbnail: ./assets/images/patient-gen-thumb-2.png
   detailsLink: /patient-generator
   detailsIsRoute: true
@@ -205,6 +205,7 @@
   thumbnail: ./assets/images/usage-analytics-thumbnail-1.png
   active: true
 
+
 -
   title: Icon Preference Experiment
   description: >-
@@ -214,7 +215,7 @@
   detailsLink: /icon-preference
   detailsLinkLabel:
   detailsIsRoute: true
-  thumbnail:
+  thumbnail: ./assets/images/icon-study-1-thumbnail.png
   active: true
 -
   title: Sepsis Workflow Design
@@ -234,7 +235,7 @@
   detailsLink: /demo/data-vis-guidelines/index.html
   detailsLinkLabel: View Guidelines
   detailsIsRoute: false
-  thumbnail:
+  thumbnail: ./assets/images/data-ink-thumbnail-1.png
   active: true
 -
   title: Cormorbidity Chord Diagram

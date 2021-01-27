@@ -1,17 +1,19 @@
 
 <h2>Clinical Voice Assistant Prototype</h2>
 
-<p>A planned feature of my  clinical software product was an intelligent voice assistant.
-</p>
+<p>We were planning to include an intelligent voice assistant in the product I
+was involved in</p>
 
-<p>We researched the approaches of Amazon's Alexa, and the Google Assistant</p>
+<p>We researched the approaches of Amazon's Alexa, and Google Assistant</p>
 
-<p>We used the concept of user intents, slots, etc. to document what the voice assistant would support. This also helped me start to determine the best ways to communicate UX learnings to development
+<p>We settled on the concept of user intents, slots, etc. to document what the voice assistant would support. This also helped me start to determine the best ways to communicate UX learnings to development
 in a format that would be most beneficial for them.</p>
 
 
-<p>As our voice assistant research proceeded, I realized there it could be beneficial to expand on and share the UX+AI knowledge I was acquiring.  I created a talk for World Usability Day inside of our company talking about how UX should think about and approach design for
-  artificial intelligence, because it is a new area with non-traditional design needs. You can view my slides for that talk <a href="assets/ux-and-ai.pdf">here</a>.</p>
+<p>As our voice assistant research proceeded, I realized  it could be beneficial to share the UX+AI knowledge
+  I was gathering.  I created a <a href="assets/ux-and-ai.pdf">presentation for World Usability Day</a>
+  talks in our company, proposing ways for UX to think about and approach design for
+  artificial intelligence, because designing for AI is a new area for UX, with non-traditional design needs.</p>
 
 <!--
 Researched alexa, google assistant approaches. combined with our research on questions that cliniciians
@@ -29,45 +31,73 @@ Researched alexa, google assistant approaches. combined with our research on que
 <p>A working prototype that we could iterate on would be the most helpful to us in user research and testing. After some exploration of various tools,
 I figured out that I could use a real natural language engine combined with tools that I have built previously.</p>
 
-<p>I settled on the Snips NLU open source Python Library (see <a href="https://snips-nlu.readthedocs.io/en/latest">https://snips-nlu.readthedocs.io/en/latest/</a>) as the part
-that would parse the user's speech into a meaningful intent. An  interesting characteristic of Snips NLU is that the training data sets are all in yaml files,
-which are both easy to manually edit and easy to parse. To expose the natural language processing through a Web API, I used the Django Python Web Framework, which allowed me to keep all of the back end in the same Python project.</p>
+<div style="text-align: center">
+  <img src="assets/images/voice-assistant-tech-stack.png"/>
+</div>
+
+<p>The illustration above shows the technologies used.</p>
+
+
+<p>I decided to use the <a href="https://snips-nlu.readthedocs.io/en/latest">Snips NLU open source Python Library</a> to
+  parse the user's speech text into a meaningful intent. The Snips NLU uses yaml formatted files for its training data; yaml is both easy to edit and easy to parse. And so
+  as I test the prototype with users I can easily modify the training data set by hand to accommodate my usability findings. In addition, I can expose the training set through
+  the Web API as a nicely formatted page to share with developers, and other technical people on the project.
+</p>
+
+<p>I used the <a href="https://www.djangoproject.com/">Django Python Web Framework</a>  to expose the NLU functionality via a Web API, which allowed me to keep all of the back end code as Python.</p>
 <p>The portion of this solution that users would interact with for testing was an Angular application that made calls to the Django Web application as appropriate.</p>
 
-<p>Because the voice assistant feature for our product would be dealing with patient health information, I was able to use the <a href="javascript:void(0)" [routerLink]="'/patient-generator'">patient data generator</a>  tool that I had
+<p>Because the voice assistant feature for our product would be dealing with patient health information,
+  I was able to use the <a href="javascript:void(0)" [routerLink]="'/patient-generator'">patient data generator</a>  tool that I had
 previously created.  This added a sense of realism to the data displayed by the voice assistant protottype.</p>
 
 
-<!--
-<div>
-    <img style="border: 1px solid #e3e3e3;"  src="assets/images/voice-assistant-1.png"/>
+
+
+<h3 style="margin-top: 32px;">Screen shots from the prototype</h3>
+
+<div class="container-fluid" >
+
+<div class="row">
+
+
+  <div class="col">
+    <div style="margin-top: 40px; color: #999999;height: 4.5em;font-size: 15px">1. The user has said to open a specific patient.</div>
+    <div><img style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-2.png"/></div>
+
+  </div>
+
+
+
+
+
+  <div class="col">
+    <div style="margin-top: 40px; color: #999999;font-size: 15px;height: 4.5em;">2. The user asks about a lipid panel, and the results are
+      returned from the patient generator.</div>
+    <div><img style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-3.png"/></div>
+
+  </div>
+
+
+
+
+  <div class="col">
+    <div style="margin-top: 40px; color: #999999;font-size: 15px;height: 4.5em;width: 410px">3. Triglycerides seem concerning, so the
+    doctor wants to keep an eye on that metric for next visit. </div>
+    <div><img style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-4.png"/></div>
+
+  </div>
+
+
+
+
+  <div class="col">
+    <div style="margin-top: 40px; color: #999999;font-size: 15px;height: 4.5em;">4. Now the user says they want
+    a follow up in three weeks and the NLU parser identifies the intent and calculates an appropriate date. </div>
+    <div><img style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-5.png"/></div>
+
+  </div>
+
 </div>
--->
 
-
-
-<div>
-  <img style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-2.png"/>
-</div>
-
-
-
-
-
-<div>
-  <img style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-3.png"/>
-</div>
-
-
-
-
-<div>
-  <img style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-4.png"/>
-</div>
-
-
-
-
-<div>
-  <img  style="border: 1px solid #e3e3e3" src="assets/images/voice-assistant-5.png"/>
 </div>

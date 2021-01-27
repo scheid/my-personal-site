@@ -6,44 +6,48 @@
 
 </p>
   <p>
-  The types of patient data that we deal with are wide ranging (problems, medications, allergies, lab results, vital signs, notes, etc.), and take on specific patterns of values for
-  different disease profiles. Complex patients, ones that have numerous comorbidities, can have 20+ medications and problems.
+  The types of patient data are wide ranging (problems, medications, allergies, lab results, vital signs, notes, etc.), and take on specific patterns of values for
+  different disease profiles. Complex patients can have 20+ medications and problems.
 
-  Further complicating this is that patient health records usually have a fair amount of incomplete and messy data.
+  Also, real patient data almost always contains missing or incomplete values.
 
   To create believable patient profiles, hypothetical data has to be generated in a very specific way.
    </p>
 
 <p>
-  This is the motivation behind the patient data generator. I created this tool for designers creating static designs
-  and coded prototypes, and for development teams to use in test environments.
+  I created the patient generator for both designers and for development teams.
 
   For static designs created in Sketch, Illustrator, or Figma, an SVG file format of the patient record is available.  For coded prototypes, a simple json schema is available.
+</p>
 
-  The patient generator uses techniques similar to a Monte Carlo simulation to build up all of the parts of a patient record.
+  <p>
+  The patient generator uses techniques similar to a <a href="https://en.wikipedia.org/wiki/Monte_Carlo_method">Monte Carlo simulation</a> to build up all of the parts of a patient record.
 
   The generator is architected to be extensible through editable configuration files.
   Any number of new patient profiles can be created and existing ones can all be edited to tweak the generator results.
 
 </p>
 
-  <p>I created the patient generator using the Swift programming language and it runs on an Ubuntu Linux server.</p>
+  <p>It is written entirely using the <a href="https://swift.org/about/">Swift programming language</a> (with the <a href="https://vapor.codes/">Vapor framework</a>) and it runs on an Ubuntu Linux server.</p>
 
 
   <h3>Live Examples</h3>
 
-  <p>Here are some live examples from the patient generator. Note that for the json examples, your prototype can get
-    the patient data directly from the generator service api; the json download here is mainly for demo purposes.</p>
-  <p>You will notice that the SVG files are plain and unformatted. This is intentional to allow the designer to easily customize the text.</p>
+  <p>Here are some live examples from the patient generator.</p>
+  <p>The SVG files are intentionally plain and unformatted to allow the designer to easily customize the text for their own styles.</p>
 
-  <p style="font-weight: bold"><a href="/api/patients/profile/hypertension/svg/download">Patient profile for hypertension - SVG File</a></p>
-  <p style="font-weight: bold"><a href="/api/patients/profile/hypertension/json/download">Patient profile for hypertension - JSON File</a></p>
+  <div class="row" style="margin: 16px">
+    <div class="col">
+      <a class="btn  btn-outline-secondary"  href="/api/patient/profile/hypertension/svg">Patient profile for hypertension - SVG</a>
+    </div>
+    <div class="col"><a class="btn btn-outline-secondary" href="/api/patient/profile/hypertension/json">Patient profile for hypertension - JSON</a></div>
+    <div class="col"><a class="btn btn-outline-secondary"  href="/api/patient/profile/complexDiabetesHtnLipidGerd/svg">Patient profile for a complex patient - SVG</a></div>
+    <div class="col"><a class="btn btn-outline-secondary"  href="/api/patient/profile/complexDiabetesHtnLipidGerd/json">Patient profile for a complex patient - JSON</a></div>
+    <div class="col"><a class="btn btn-outline-secondary"  href="/api">Patient Generator Home Page</a></div>
 
-  <p style="font-weight: bold"><a href="/api/patients/profile/complexDiabetesHtnLipidGerd/svg/download">Patient profile for a complex patient - SVG File</a></p>
-  <p style="font-weight: bold"><a href="/api/patients/profile/complexDiabetesHtnLipidGerd/json/download">Patient profile for complex patient - JSON File</a></p>
+  </div>
 
-  <p>Note that you can click the same links above multiple times and the exact values in the resulting profile, and the patient names, are different. This is intentional, and is because the values are generated
-    with a random number generator, and the values are always slightly different.</p>
+
 
 
   <h3>How the generator works</h3>

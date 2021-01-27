@@ -12,12 +12,13 @@ html {
 
 a {
     color: #34779b;
+    font-weight: 400;
 }
 
 body {
     font-family: $font-family-sans-serif;
     color: #464646;
-
+    font-weight: 400;
 }
 
 
@@ -29,10 +30,10 @@ body {
      font-size: 17px;
 }
 
-
 h1, h2, h3, h4 {
 
     font-weight: 400;
+
 }
 
 h2 {

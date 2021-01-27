@@ -33,6 +33,7 @@ import { CareQualityDesignComponent } from './care-quality-design/care-quality-d
 import { FilterActiveDesignsPipe } from './pipes/filter-active-designs.pipe';
 import { DetailsVoiceAssistantComponent } from './details-voice-assistant/details-voice-assistant.component';
 import { DetailsIconPreferenceComponent } from './details-icon-preference/details-icon-preference.component';
+import { DetailsHomecareSummativeTestingComponent } from './details-homecare-summative-testing/details-homecare-summative-testing.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { DetailsIconPreferenceComponent } from './details-icon-preference/detail
     CareQualityDesignComponent,
     FilterActiveDesignsPipe,
     DetailsVoiceAssistantComponent,
-    DetailsIconPreferenceComponent
+    DetailsIconPreferenceComponent,
+    DetailsHomecareSummativeTestingComponent
   ],
   imports: [
       BrowserModule,
