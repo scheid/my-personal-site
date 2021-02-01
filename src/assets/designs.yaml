@@ -116,7 +116,7 @@
     are supported based on primary disease, and will show the realistic ranges of vital
     sign values, medications, and problems for the given profile. Extensible; unlimited number of profiles can
     be defined. Written in Swift using the Vapor framework.
-  thumbnail: ./assets/images/patient-generator-thumbnail-2
+  thumbnail: ./assets/images/patient-generator-thumbnail-2.png
   detailsLink: /patient-generator
   detailsIsRoute: true
   active: true
