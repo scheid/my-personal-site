@@ -61,13 +61,13 @@
   detailsIsRoute: true
   active: true
 -
-  title: Job Discovery / User Requirements Exploration
+  title: Acute Care Nursing Research
   description: >-
     Our team traveled to large hospitals across the country to gather user requirements for a mobile application to be used by nurses. Across
     the team, we shadowed and interviewed over 100 nurses. I personally interviewed and shadowed 10 of those.
-  detailsLink:
-  detailsIsRoute:
-  thumbnail:
+  detailsLink: ./assets/Acute-Care-Nursing-Research.pdf
+  detailsIsRoute: false
+  thumbnail: ./assets/images/nursing-research-thumbnail.jpg
   active: true
 
 -
@@ -107,6 +107,7 @@
   detailsLink: /demo/opioid/opioid-basic-statistics-smaller.html
   detailsLinkLabel: View Sample Results
   detailsIsRoute: false
+  active: true
 
 -
   title: Patient Record Generator
@@ -115,7 +116,7 @@
     are supported based on primary disease, and will show the realistic ranges of vital
     sign values, medications, and problems for the given profile. Extensible; unlimited number of profiles can
     be defined. Written in Swift using the Vapor framework.
-  thumbnail: ./assets/images/patient-gen-thumb-2.png
+  thumbnail: ./assets/images/patient-generator-thumbnail-2
   detailsLink: /patient-generator
   detailsIsRoute: true
   active: true
@@ -149,7 +150,8 @@
     Can display relationships as visual connections alongside a conventional tabular layout.  Allows very easy visual
     scanning to see similarities in relationships when sorted on various measures. The demo created here shows patient
     comorbidities with cost and age.
-  detailsLink:
+  detailsLink: /demo/intersection-diagram/index.html
+  detailsIsRoute: false
   thumbnail: ./assets/images/intersection-diagram-thumbnail.png
   active: true
 
@@ -232,7 +234,7 @@
     Created data visualization guidelines as a reference to be used across the company. The guidelines are mostly tool agnostic and
     describe best practices for how to approach a data-orient project. Many people creating the data dashboards in my compnay
     use Power BI, so I did tailor the guidelines somewhat for that specific tool.
-  detailsLink: /demo/data-vis-guidelines/index.html
+  detailsLink: /demo/data-viz-guidelines/index.html
   detailsLinkLabel: View Guidelines
   detailsIsRoute: false
   thumbnail: ./assets/images/data-ink-thumbnail-1.png
@@ -269,7 +271,7 @@
 -
   title: Medication Reconciliation; Design extension of Twinlist
   description: This is a Twinlist-inspired medication reconciliation design.
-  detailsLink:
+  detailsLink: /demo/d3-med-rec/index.html
   thumbnail: ./assets/images/med-rec-2-smaller.png
   active: true
 #-

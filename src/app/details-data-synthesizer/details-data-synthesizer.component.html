@@ -1,3 +1,6 @@
+
+<div class="container-fluid">
+
 <h2 style="margin-bottom: 32px;">Data Synthesizer</h2>
 
 <div class="row" style="margin-bottom: 32px;">
@@ -6,12 +9,14 @@
 
 
 
- <img style="float: right; clear: right;padding: 32px;" src="assets/images/data-synthesizer-thumbnail.png"/>
+ <img  class="d-none d-md-block" style="float: right; clear: right;padding: 32px;" src="assets/images/data-synthesizer-thumbnail.png"/>
+ <div class="d-block d-md-none"><img src="assets/images/data-synthesizer-thumbnail.png"/></div>
+
 
 
 <p>I maintain a public NPM package for the data synthesizer, which can be found at: <a href="https://www.npmjs.com/package/data-synthesizer">https://www.npmjs.com/package/data-synthesizer</a></p>
 
-<p>The data synthesizer is an Angular service that can randomly generate large, hierarchical data sets in real time.  The data generation is highly and easily configurable, and very fast.</p>
+<p>The data synthesizer is an Angular service that can randomly generate large, hierarchical data sets in real time.  The data generation is highly configurable, and very fast.</p>
 
 <p>I created a Web Assembly (wasm) module in the C programming language specifically for the random number generation, which uses the Mersenne Twister (source code is <a href="https://github.com/scheid/prng-wasm">here</a>). The other part of the data synthesizer is an
 Angular service written in Typescript that interfaces with the Web Assembly module</p>
@@ -22,3 +27,5 @@ Angular service written in Typescript that interfaces with the Web Assembly modu
 </p>
 
 <p>I decided that others could find this useful as well, and so I now maintain it on the public NPM repository, and provide all of the source code as well.</p>
+
+</div>

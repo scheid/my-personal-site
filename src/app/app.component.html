@@ -29,10 +29,13 @@
 <fly-out-panel bgColor="#333333" [clickOffToClose]="true" #flyoutPanelMenu side="left" displayType="cover" >
     <div class="container-fluid">
         <div *ngFor="let item of cfg.menu;let idx = index" style="margin-bottom:16px;" >
-            <button  class="btn btn-link" style="font-weight: bold;font-size:20px;width:100%;text-align: left;color: white;" (mouseup)="flyoutPanelMenu.hide()" [routerLink]="'/' + item.view">{{item.label}}</button>
+            <button *ngIf="!item.children" class="btn btn-link" style="font-weight: normal;font-size:24px;width:100%;text-align: left;color: white;" (mouseup)="flyoutPanelMenu.hide()" [routerLink]="'/' + item.view">{{item.label}}</button>
 
-            <div style="margin-left: 32px; margin-bottom:16px;" *ngIf="item.children">
-                <div *ngFor="let subitem of item.children"><button class="btn btn-link" style="width:100%;text-align: left;color: white" (mouseup)="flyoutPanelMenu.hide()" [routerLink]="'/' + item.view + '/' + subitem.view">{{subitem.label}}</button></div>
+          <div *ngIf="item.children" style="margin-left: 12px;font-weight: normal;font-size:24px;width:100%;text-align: left;color: #777777;" >{{item.label}}</div>
+
+
+          <div style="margin-left: 16px; margin-bottom:16px;" *ngIf="item.children">
+                <div *ngFor="let subitem of item.children"><button class="btn btn-link" style="width:100%;text-align: left;color: white;padding-top: 8px;padding-bottom: 8px;font-size: 18px" (mouseup)="flyoutPanelMenu.hide()" [routerLink]="'/' + item.view + '/' + subitem.view">{{subitem.label}}</button></div>
             </div>
         </div>
     </div>

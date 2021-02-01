@@ -3,11 +3,11 @@
   <!--
     <div style="margin-top:16px;text-align: right;color: #999999;padding-right: 0px;">{{currIdx }} of {{designItems?.length}}</div>
     -->
-  <div class="row align-items-center flex-wrap no-gutters">
+  <div class="row align-items-flex-start flex-wrap no-gutters">
 
-      <div class="col" style="overflow: hidden; padding: 8px;min-width: 550px;max-width: 800px;min-height: 360px;border: 1px solid #e3e3e3; margin: 16px;border-radius: 4px" *ngFor="let item of designItems | filterActiveDesigns">
+      <div class="col" style="overflow: hidden; padding: 8px;min-width: 400px;max-width: 800px;min-height: 360px;border: 1px solid #e3e3e3; margin: 16px;border-radius: 4px" *ngFor="let item of designItems | filterActiveDesigns">
         <div class="row">
-          <div class="col-md">
+          <div class="col-md order-md-first order-last">
 
 
             <div style="margin-top: 16px;">
@@ -23,7 +23,7 @@
             </div>
 
           </div>
-          <div class="col-md" style="padding: 24px;">
+          <div class="col-md order-md-last order-first" style="padding: 24px;">
             <h4 class="card-title">{{item.title}}</h4>
             <p class="card-text" style="flex-grow:1;">{{item.description}}</p>
             <a href="#" [routerLink]="item.detailsLink" class="btn btn-outline-secondary" style="align-self: flex-start" *ngIf="item.detailsLink && item.detailsIsRoute">{{item.detailsLinkLabel || 'More. . .'}}</a>

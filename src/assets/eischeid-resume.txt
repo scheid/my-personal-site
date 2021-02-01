@@ -1,0 +1,157 @@
+Employment
+
+Principle User Experience Researcher and Designer, Allscripts Healthcare
+Raleigh, NC January 2012 - Present
+
+I currently have the most invention disclosures submitted and the most patents pending or granted at Allscripts.
+Data Visualization and Analysis
+
+Used R statistical software for formal analyses and visualizations using ggplot
+
+  - Explored Opioid data for trends and to answer questions that the client had about their opioid prescriptions. You can see results of that here
+  - Analyzed usage analytics and visualized using ggplot; used the results to create UI prototypes that had similar data to to real application
+  - we conducted a study on icon preferences and I used R for the statistical analyses and final charts.
+
+Created data visualization guidelines to be used across the company. Allscripts heavily used Power BI, and I was required to tailor the guidelines assuming that PowerBI would be the tool used.
+
+Created an internal web application to document clinical risk items. I performed all roles for this product: requirements gathering, UI design, development, and ongoing maintenance/support. Technologies used were Angular for the web application and Swift running on Ubuntu for the Web API.
+
+Created advanced user interface proof-of-concept applications using Angular and D3js. These applications illustrated that particular UI designs were technologically feasible using HTML5, Javascript, and SVG, and also how the designs could realistically be implemented.
+
+Created a patient record generator in Swift that will create realistic hypothetical patient records that we can use in UI designs and also development can use in testing.
+
+The UI Starter Kit is another example of Web Development. I create and maintain a collection of git repositories and NPM packages that greatly reduce the development effort needed to align with our UX design guidelines. These are used across the company and I constantly work with developers to add features and fix bugs in the starter kit.
+
+Shadowed nurses in hospital settings to gather user requirements a mobile nursing application
+
+Shadowed family physicians for a natural language processing dictation EHR feature
+
+Interviewed third-party developers to understand their usage of Allscripts application interfaces.
+
+Interviewed medical practice patient portal administrators to gather requirements for our portal administrative console.
+User Testing
+
+On-site usability testing at multiple sites across the U.S. for a homecare mobile application.
+
+Tested new designs for patient portal administrative application.
+
+Numerous formative usability tests for most of the designs I worked on.
+
+
+
+
+Human Factors Engineer, IBM Corporation
+Research Triangle Park, NC May 2004 - January 2012
+
+Achieved IBM Master Inventor status. Inventor and/or co-inventor on 25 United States patents.
+
+As mobile was becoming a serious platform, I gained fluency in mobile application design, mobile web UI frameworks, technologies for cross-platform deployment (i.e., mobile web), mobile specific usability and user interface design best practices. The huge design shift caused by mobile was great as it forced me to break out of all of the more traditional design techniques I had been using (and taking for granted) for desktop applications.
+
+Planned and conducted usability tests with customers; presented results to software developers and project managers; worked to get improved designs into the products.
+
+Created high fidelity design prototypes using the Dojo javascript toolkit
+
+2008-2011: User Centered Design Lead for System x server systems management tools, including Integrated Management Module, Bootable Media Creator, UpdateXpress System Pack Installer and BladeCenter Start Now Advisor (SNA). Aided in software architecture of SNA as well as leading the UI design. Awarded employee excellence award for my work on SNA.
+
+2005-2008: User Centered Design Lead for IBM BladeCenter software, including Advanced Management Module (AMM) and RSA-II web consoles.
+
+2004-2005: User Centered Design Lead for storage system software (TotalStorage Productivity Center)
+
+
+
+
+Senior Human Factors Consultant, Booz | Allen | Hamilton
+Hampton, VA May 2002 - May 2004
+
+On site at NASA Langley Research Center for future airspace concept, Distributed Air/Ground Traffic Management (DAG-TM) Free Flight. Human factors research on the cockpit display specifications and procedures
+
+Prototyping, user testing, and specifications for free flight navigation display and primary flight display symbology
+
+Data management, data reduction, and statistical analyses on experimental results
+
+Experimental design and airspace scenario development
+
+
+
+
+Database Designer/Manager, Social Science Research Center
+Norfolk, VA March 2000 - May 2002
+
+Created and managed both Microsoft Access and Borland Delphi databases used by 40 different state agencies; provided technical support and maintained web site for the databases.
+
+User interface design for web database application.
+
+Gathered user requirements / feedback on interface prototypes through usability testing sessions.
+
+Packaged and deployed databases to customers using InstallShield
+
+
+
+
+Software Consultant, NASA Langley Research Center
+Hampton, VA. January 2000 - August 2001
+
+Created software to collect and analyze human electroencephalographic (EEG) and heart rate data in real time
+
+Used Borland Delphi and the Microsoft Component Object Model (COM) technology to create a COM server application capable of interfacing with many programming languages.
+
+Deployed the software solution on CD-ROM using InstallShield software.
+
+
+
+
+Human Factors Engineer, IBM Corporation, Santa Teresa Laboratory
+San Jose, CA. Internship: June 1999-December 1999
+
+Developed User Task Analysis for IBM e-commerce mainframe administration application; prototyped new user interfaces using Java applets and HTML
+
+Conducted usability testing on IBM IMS database administration software. Modified Java code as user testing identified problems and opportunities
+
+Developed a preliminary DB2 UDB Web Server Application, using SQL and Net.Data macros
+
+Conducted human factors evaluation and expert review of a new graphical tool for building mainframe code testing applications; worked with development team in iterative design to ensure high usability.
+
+
+
+
+Researcher, Graduate Student Researchers Program (GSRP), NASA Langley Research Center
+Hampton, VA. July 1998 - July 1999
+
+Received a renewable twelve-month federal grant to independently design and conduct psychological experiments in adaptive automation
+Application Developer
+September 1997 - July 1999
+
+Consulted with psychology professors at three different universities (William and Mary, Virginia Commonwealth, and Old Dominion)
+
+Designed custom, Windows-based computer programs in Delphi and Visual Basic for psychological experiments
+
+
+
+
+Human Factors Consultant, Virginia Modeling, Analysis, and Simulation Center (VMASC)
+Suffolk, VA. November 1997 - July 1998
+
+Helped to design a unique user interface for a high technology information kiosk for the United States Atlantic Command (USACOM) Joint Training, Analysis, and Simulation Center (JTASC)
+
+Created a Borland Delphi database application that organized, stored, and retrieved data such as images, movies, and sound clips
+
+
+
+Education
+Ph.D. Human Factors Psychology
+    2001, Old Dominion University, Norfolk, VA
+    Title of Dissertation: Perceptual Cues And Subjective Organization In A Virtual Information Workspace
+    Chairperson: Mark W. Scerbo, Ph.D.
+    Minor: Computer Simulation / Applications of Artificial Neural Networks
+
+M.S. Psychology
+    1997, Old Dominion University, Norfolk, VA.
+    Title of Thesis: The Effects of Task Partitioning and Computer Skill Level on Operator Engagement and Performance in an Adaptive, Biocybernetic Environment.
+    Chairperson: Mark W. Scerbo, Ph.D.
+    1997 Thomas K. Dempsey Scholarship Award Winner - outstanding student research paper in the Human Factors field
+
+B.S. Psychology
+    1992, Virginia Tech, Blacksburg, VA
+
+
+
