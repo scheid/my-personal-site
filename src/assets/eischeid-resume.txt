@@ -4,12 +4,13 @@ Principle User Experience Researcher and Designer, Allscripts Healthcare
 Raleigh, NC January 2012 - Present
 
 I currently have the most invention disclosures submitted and the most patents pending or granted at Allscripts.
+
 Data Visualization and Analysis
 
 Used R statistical software for formal analyses and visualizations using ggplot
 
-  - Explored Opioid data for trends and to answer questions that the client had about their opioid prescriptions. You can see results of that here
-  - Analyzed usage analytics and visualized using ggplot; used the results to create UI prototypes that had similar data to to real application
+  - Explored Opioid data for trends and to answer questions that the client had about their opioid prescriptions.
+  - Analyzed usage analytics and visualized using ggplot; used the results to create UI prototypes that had similar data to the real application
   - we conducted a study on icon preferences and I used R for the statistical analyses and final charts.
 
 Created data visualization guidelines to be used across the company. Allscripts heavily used Power BI, and I was required to tailor the guidelines assuming that PowerBI would be the tool used.
@@ -71,69 +72,6 @@ Data management, data reduction, and statistical analyses on experimental result
 
 Experimental design and airspace scenario development
 
-
-
-
-Database Designer/Manager, Social Science Research Center
-Norfolk, VA March 2000 - May 2002
-
-Created and managed both Microsoft Access and Borland Delphi databases used by 40 different state agencies; provided technical support and maintained web site for the databases.
-
-User interface design for web database application.
-
-Gathered user requirements / feedback on interface prototypes through usability testing sessions.
-
-Packaged and deployed databases to customers using InstallShield
-
-
-
-
-Software Consultant, NASA Langley Research Center
-Hampton, VA. January 2000 - August 2001
-
-Created software to collect and analyze human electroencephalographic (EEG) and heart rate data in real time
-
-Used Borland Delphi and the Microsoft Component Object Model (COM) technology to create a COM server application capable of interfacing with many programming languages.
-
-Deployed the software solution on CD-ROM using InstallShield software.
-
-
-
-
-Human Factors Engineer, IBM Corporation, Santa Teresa Laboratory
-San Jose, CA. Internship: June 1999-December 1999
-
-Developed User Task Analysis for IBM e-commerce mainframe administration application; prototyped new user interfaces using Java applets and HTML
-
-Conducted usability testing on IBM IMS database administration software. Modified Java code as user testing identified problems and opportunities
-
-Developed a preliminary DB2 UDB Web Server Application, using SQL and Net.Data macros
-
-Conducted human factors evaluation and expert review of a new graphical tool for building mainframe code testing applications; worked with development team in iterative design to ensure high usability.
-
-
-
-
-Researcher, Graduate Student Researchers Program (GSRP), NASA Langley Research Center
-Hampton, VA. July 1998 - July 1999
-
-Received a renewable twelve-month federal grant to independently design and conduct psychological experiments in adaptive automation
-Application Developer
-September 1997 - July 1999
-
-Consulted with psychology professors at three different universities (William and Mary, Virginia Commonwealth, and Old Dominion)
-
-Designed custom, Windows-based computer programs in Delphi and Visual Basic for psychological experiments
-
-
-
-
-Human Factors Consultant, Virginia Modeling, Analysis, and Simulation Center (VMASC)
-Suffolk, VA. November 1997 - July 1998
-
-Helped to design a unique user interface for a high technology information kiosk for the United States Atlantic Command (USACOM) Joint Training, Analysis, and Simulation Center (JTASC)
-
-Created a Borland Delphi database application that organized, stored, and retrieved data such as images, movies, and sound clips
 
 
 

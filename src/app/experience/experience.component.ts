@@ -30,8 +30,8 @@ export class ExperienceComponent implements OnInit {
       this.navItems =  [
           {path: 'employment', label: 'Employment'},
           {path: 'education', label: 'Education'},
-          {path: 'patents', label: 'Patents'},
-          {path: 'presentations', label: 'Presentations'}
+          {path: 'patents', label: 'Patents'} /*,
+          {path: 'presentations', label: 'Presentations'}*/
       ];
 
       this.route.events.subscribe(evt => {

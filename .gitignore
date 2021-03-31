@@ -1,5 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+
 # compiled output
 /dist
 /tmp
@@ -9,6 +10,9 @@
 
 # dependencies
 /node_modules
+
+# my worker and intermediary files
+/work
 
 # profiling files
 chrome-profiler-events*.json

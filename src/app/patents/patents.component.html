@@ -3,7 +3,7 @@
   <!-- <span style="font-size:11px;color:#acacac;padding-right:8px;">{{idx+1}}</span>   -->
 <h2>U.S. Patents</h2>
 <h3 style="margin-top:32px;">Patents Granted ({{grantedCount}})</h3>
-<div style="margin-top: 16px;" *ngFor="let item of patentItems | patentStatus : 'granted'; let idx = index;">
+<div style="margin-top: 16px;" *ngFor="let item of patentItems | patentStatus : 'granted' : 'grantDate'; let idx = index;">
   <div style="line-height:1.1em;"><span >{{item.title}}</span></div>
   <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">{{item.inventorAuthor}}</div>
   <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">{{item.assignee}}</div>
@@ -12,7 +12,7 @@
 </div>
 
 <h3 style="margin-top:64px;">Patents Pending ({{pendingCount}})</h3>
-<div style="margin-top: 16px;" *ngFor="let item of patentItems | patentStatus : 'patent-pending'; let idx = index;">
+<div style="margin-top: 16px;" *ngFor="let item of patentItems | patentStatus : 'patent-pending' : 'filingCreationDate'; let idx = index;">
   <div style="line-height:1.1em;"><span>{{item.title}}</span></div>
   <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">{{item.inventorAuthor}}</div>
   <div style="margin-left: 16px;font-size: 0.8rem;color: #666666">{{item.assignee}}</div>

@@ -30,6 +30,9 @@
   thumbnail: ./assets/images/voice-assistant-thumbnail.png
   active: true
   detailsIsRoute: true
+  tags:
+    - development
+    - AI
 
 -
   title: Data Synthesizer
@@ -39,7 +42,7 @@
   active: true
   detailsIsRoute: true
   tags:
-    - development
+    - web development
 -
   title: Summative Usability Testing
   description: >-
@@ -49,6 +52,8 @@
   detailsIsRoute: true
   thumbnail: ./assets/images/homecare-summative-1-thumbnail.png
   active: true
+  tags:
+    - usability testing
 
 -
   title: UI development Starter Kit
@@ -60,6 +65,8 @@
   thumbnail: ./assets/images/starter-kit-screen-1.png
   detailsIsRoute: true
   active: true
+  tags:
+    - web development
 -
   title: Acute Care Nursing Research
   description: >-
@@ -69,6 +76,8 @@
   detailsIsRoute: false
   thumbnail: ./assets/images/nursing-research-thumbnail.jpg
   active: true
+  tags:
+    - user research
 
 -
   title: Water Valve Chart
@@ -96,18 +105,28 @@
   thumbnail: ./assets/images/health-dials.png
   active: true
   detailsIsRoute: true
+  tags:
+    - visualization
+    - development
+    - design
 
 -
   title: Opioid Data Visualization and Analysis
   description: >-
    Analyses and visualizations done with the R
-   statistical program. can perhaps include plot samples, and my approach
-   for transforming the data and trying to answer questions with the visualizations.
+   statistical program. Lots of analyses and visualizations, looking at the data from many angles; partly exploration, partly answering specific questions.
   thumbnail: ./assets/images/opioid-analyses-1.png
   detailsLink: /demo/opioid/opioid-basic-statistics-smaller.html
   detailsLinkLabel: View Sample Results
   detailsIsRoute: false
   active: true
+  tags:
+    - R
+    - visualization
+    - data analysis
+
+
+
 
 -
   title: Patient Record Generator
@@ -120,6 +139,10 @@
   detailsLink: /patient-generator
   detailsIsRoute: true
   active: true
+  tags:
+    - development
+    - data generation
+
 -
   title: Web Application for Clinical Risk Cases
   description: >-
@@ -130,6 +153,10 @@
   thumbnail: ./assets/images/clinical-risk-assessmen-thumbnail.png
   active: true
   detailsIsRoute: true
+  tags:
+    - design
+    - development
+    - research
 
 
 -
@@ -139,9 +166,11 @@
     customers over time.
   thumbnail: ./assets/images/care-quality-design-1-thumbnail.png
   detailsLink: /care-quality-design
-  detailsLinkLabel: More
+  detailsLinkLabel: More. . .
   detailsIsRoute: true
   active: true
+  tags:
+    - design
 
 
 -
@@ -151,9 +180,13 @@
     scanning to see similarities in relationships when sorted on various measures. The demo created here shows patient
     comorbidities with cost and age.
   detailsLink: /demo/intersection-diagram/index.html
+  detailsLinkLabel: View Demo
   detailsIsRoute: false
   thumbnail: ./assets/images/intersection-diagram-thumbnail.png
   active: true
+  tags:
+    - design
+    - web development
 
 - title: Graphical Asset Generator
   description: >-
@@ -195,6 +228,9 @@
   thumbnail: ./assets/images/quadgram-counts-thumbnail.png
   active: true
   detailsIsRoute: false
+  tags:
+    - data analysis
+
 -
   title: Using Analytics Data to Inform UI Design
   description: >-
@@ -206,19 +242,27 @@
   detailsIsRoute: false
   thumbnail: ./assets/images/usage-analytics-thumbnail-1.png
   active: true
-
+  tags:
+    - design
+    - data analysis
+    - development
 
 -
   title: Icon Preference Experiment
   description: >-
-    Systematically determined user preferences for multiple icon options by creating a custom Angular application that presented
-    icons to users in a series of trials. Used the method of paired comparisons
-    and analyzed data in R using the prefmod package. I communicated results to stakeholders by rendering the R analyses using R Markdown and ggplot.
+    Conducted an experiment to determine user preferences for multiple icon options that our team was considering.
+    Created a custom Angular application that presented the icon options to users in a series of trials, and collected
+    data needed for analyses, which I performed in R
   detailsLink: /icon-preference
-  detailsLinkLabel:
+  detailsLinkLabel: View Analyses
   detailsIsRoute: true
   thumbnail: ./assets/images/icon-study-1-thumbnail.png
   active: true
+  tags:
+    - R
+    - data analysis
+    - statistics
+
 -
   title: Sepsis Workflow Design
   description: The procedure for when a patient becomes septic in a hospital is well defined, but EHR's do not support these types of specific situations in their designs.  This design is an attempt to support clinical needs for sepsis by helping clinicians understand what has been done and what needs to be done next in a time-critical sepsis situation.
@@ -227,6 +271,9 @@
   detailsIsRoute: false
   thumbnail: ./assets/images/sepsis-pathways-thumbnail.png
   active: true
+  tags:
+    - design
+    - web development
 
 -
   title: Data Visualization Guidelines
@@ -244,8 +291,13 @@
   description: In the context of population health, this chord diagram design illustrates how various populations and comorbidities can  be shown in a compact space.
   detailsLink: /demo/comorbiditychord2/index.html
   detailsIsRoute: false
+  detailsLinkLabel: View Demo
   thumbnail: ./assets/images/chord1.png
   active: true
+  tags:
+    - design
+    - web development
+
 -
   title: Sankey Diagram for Hospital Readmissions
   description: Uses a Sankey diagram to show the flow of patients over time, giving visual emphasis to readmissions.
@@ -254,6 +306,9 @@
   detailsIsRoute: false
   thumbnail: ./assets/images/readmissions-sankey-smaller.png
   active: true
+  tags:
+    - design
+    - web development
 
 - title: >
     "Click it, Capture it" Application for Generating Cogulator models
@@ -264,7 +319,7 @@
     UI interaction.
   detailsLink:
   thumbnail: ./assets/images/click-it-capture-it-1-thumbnail.png
-  active: true
+  active: false
 
 
 
@@ -272,6 +327,7 @@
   title: Medication Reconciliation; Design extension of Twinlist
   description: This is a Twinlist-inspired medication reconciliation design.
   detailsLink: /demo/d3-med-rec/index.html
+  detailsLinkLabel: View Demo
   thumbnail: ./assets/images/med-rec-2-smaller.png
   active: true
 #-
@@ -316,7 +372,7 @@
   description: Created a custom web application using Angular and Ruby on Rails.  Users entered personal information and some medical information, and that data was encrypted both in transit (using https) and at rest while stored on the server (using AES-256).
   detailsLink:
   thumbnail: ./assets/images/wellness-signup-thumbnail.png
-  active: true
+  active: false
   detailsLinkLabel: View Web Site
   detailsIsRoute: false
 -

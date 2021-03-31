@@ -1,5 +1,5 @@
 <div class="container-fluid">
-<h3>Patient Record Generator</h3>
+<h2 style="margin-bottom: 32px;">Patient Record Generator</h2>
 
 <p>One of the challenges in healthcare IT User Interface design is knowing what the designs will look and behave like
   when populated with real patient data. The type and amount of data can greatly affect how usable and readable the designs are.
@@ -36,21 +36,26 @@
   <p>Here are some live examples from the patient generator.</p>
   <p>The SVG files are intentionally plain and unformatted to allow the designer to easily customize the text for their own styles.</p>
 
-  <div class="row" style="margin: 16px">
+
+  <div class="row">
+
     <div class="col">
-      <a class="btn  btn-outline-secondary"  href="/api/patient/profile/hypertension/svg">Hypertension Patient - SVG</a>
-    </div>
-    <div class="col"><a class="btn btn-outline-secondary" href="/api/patient/profile/hypertension/json">Hypertension Patient - JSON</a></div>
-    <div class="col"><a class="btn btn-outline-secondary"  href="/api/patient/profile/complexDiabetesHtnLipidGerd/svg">Complex patient - SVG</a></div>
-    <div class="col"><a class="btn btn-outline-secondary"  href="/api/patient/profile/complexDiabetesHtnLipidGerd/json">Complex patient - JSON</a></div>
-    <div class="col"><a class="btn btn-outline-secondary"  href="/api">Patient Generator Home Page</a></div>
+  <div class="list-group">
+    <a  class="list-group-item list-group-item-action"  href="/api">Patient Generator Home Page</a>
+    <a  class="list-group-item list-group-item-action"  href="/api/patient/profile/hypertension/svg">Hypertension Patient - SVG</a>
+    <a  class="list-group-item list-group-item-action" href="/api/patient/profile/hypertension/json">Hypertension Patient - JSON</a>
+    <a  class="list-group-item list-group-item-action"  href="/api/patient/profile/complexDiabetesHtnLipidGerd/svg">Complex patient - SVG</a>
+    <a  class="list-group-item list-group-item-action"  href="/api/patient/profile/complexDiabetesHtnLipidGerd/json">Complex patient - JSON</a>
+
 
   </div>
 
+    </div>
+    <div class="col"></div>
+  </div>
 
 
-
-  <h3>How the generator works</h3>
+  <h3 style="margin-top: 16px">How the generator works</h3>
   <p>
   The generation process starts with a profile, which is a yaml file, and the various parts of the record are generated based on the contents of that profile.
     For example, a diabetes profile may have general problems defined:

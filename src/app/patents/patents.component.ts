@@ -13,7 +13,6 @@ import {PatentStatusPipe} from '../pipes/patent-status.pipe';
 export class PatentsComponent implements OnInit {
 
   patentItems: any[];
-
   grantedCount: number;
   pendingCount: number;
 
@@ -30,6 +29,7 @@ export class PatentsComponent implements OnInit {
           (data) => {
               me.patentItems = data;
 
+              // run the data through these pipes mostly so I can get the counts
               me.grantedCount = this.patentStatusPipe.transform(data, 'granted').length;
               me.pendingCount = this.patentStatusPipe.transform(data, 'patent-pending').length;
           },

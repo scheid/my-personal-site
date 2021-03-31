@@ -3,10 +3,10 @@
   <!--
     <div style="margin-top:16px;text-align: right;color: #999999;padding-right: 0px;">{{currIdx }} of {{designItems?.length}}</div>
     -->
-  <div class="row align-items-flex-start flex-wrap no-gutters">
+  <div class="row align-items-flex-start ">
 
-      <div class="col" style="overflow: hidden; padding: 8px;min-width: 400px;max-width: 800px;min-height: 360px;border: 1px solid #e3e3e3; margin: 16px;border-radius: 4px" *ngFor="let item of designItems | filterActiveDesigns">
-        <div class="row">
+      <div class="col-sm-12 col-md-6" style="overflow: hidden; padding: 32px;min-height: 360px;" *ngFor="let item of designItems | filterActiveDesigns">
+        <div class="row" style="border: 1px solid #e3e3e3; border-radius: 4px">
           <div class="col-md order-md-first order-last">
 
 
@@ -30,13 +30,13 @@
 
             <div><a class="btn btn-outline-secondary" href="#" [href]="item.detailsLink" style="align-self: flex-start" *ngIf="item.detailsLink && !item.detailsIsRoute">{{item.detailsLinkLabel || 'More. . .'}}</a></div>
 
-            <!--
 
-            <div *ngIf="item.tags" class="row no-gutters flex-nowrap" style="margin-top:8px;font-size: 12px;color: #999999">
-              <div class="col col-auto">tags:</div>
-              <div class="col col-auto"  *ngFor="let tag of item.tags"><span style="margin-left: 8px;color: #999999;padding: 2px;border: 1px solid #acacac;border-radius: 4px">{{tag}}</span></div>
+
+            <div *ngIf="item.tags" class="row no-gutters flex-nowrap" style="margin-top:16px;font-size: 12px;color: #cecece">
+
+              <div class="col col-auto"  *ngFor="let tag of item.tags"><span style="margin-right: 8px;color: #999999;padding: 4px;border: 1px solid transparent;border-radius: 4px">{{tag}}</span></div>
             </div>
--->
+
           </div>
         </div>
       </div>
