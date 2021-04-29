@@ -38,7 +38,8 @@ export class AppComponent implements OnInit {
 
       containerSelector: 'body',
       /*palette: ['#343434', '#EBE04F', '#FD6E30', '#6FCFC7'], */
-      palette: ['#b1eb00', '#ff3fd4', '#ffac00', '#53bbf4', '#ff432e'],
+     /* palette: ['#b1eb00', '#ff3fd4', '#ffac00', '#53bbf4', '#ff432e'], */
+      palette: ['#e3e3e3', '#e3e3e3', '#e3e3e3', '#e3e3e3', '#e3e3e3'],
       labels: ['Home', 'Portfolio', 'Philosophy', 'Experience'],
       views: ['home', 'portfolio', 'philosophy', 'experience/employment'],
         menu: [
@@ -63,7 +64,8 @@ export class AppComponent implements OnInit {
         ],
       buttonWidth: 125,
       buttonHeight: 25,
-      h: 150,
+      h: 140,
+      hContainer: 150,
       svg: null,
       btnG: null,
       onLinkClick: function(){}
@@ -135,7 +137,7 @@ export class AppComponent implements OnInit {
     me.cfg.svg = d3.select("#header")
         .append("svg")
         .attr("width", w)
-        .attr("height", h);
+        .attr("height", me.cfg.hContainer);
 
 
     me.cfg.btnG = me.cfg.svg.selectAll(".nav-btn")
@@ -192,7 +194,7 @@ export class AppComponent implements OnInit {
     let labels = me.cfg.btnG
         .append("text")
         .attr("x", me.cfg.buttonWidth / 2)
-        .attr("y", me.cfg.buttonHeight + 15)
+        .attr("y", me.cfg.buttonHeight + 20)
         .classed("nav-btn-text", true)
 
         .text(function(d, i) { return d;})

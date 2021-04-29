@@ -22,27 +22,34 @@
 # include visual tags on each card: design, development, data visualization, research, statistical analyses
 
 -
-  title: Voice Assistant Coded Prototype
+  title: Web Application for Clinical Risk Cases
   description: >-
-    Used Python (The Snips NLU library and Django), Angular, and Swift to create a clinical voice assistant that would allow our team to iteratively design our
-    clinical voice assistant. I coded custom views to allow dev and design teams to see the currently defined intents and slots in the training data set.
-  detailsLink: /voice-assistant
-  thumbnail: ./assets/images/voice-assistant-thumbnail.png
+    I transformed a confusing and scattered process into a one-stop web application for
+    tracking the potential clinical risk items.  I gathered business requirements, interviewed a users,
+    created UI designs in Sketch, created the client application in Angular, and created the back end as an web API in Swift running on Ubuntu Linux.
+  detailsLink: /clinical-risk-items
+  thumbnail: ./assets/images/clinical-risk-assessmen-thumbnail.png
   active: true
   detailsIsRoute: true
   tags:
+    - design
     - development
-    - AI
+    - research
 
 -
-  title: Data Synthesizer
-  description: An angular data service that generates custom data structures in realtime. Delivered as an NPM package.
-  detailsLink: /data-synthesizer
-  thumbnail: ./assets/images/data-synthesizer-thumbnail.png
-  active: true
+  title: CareQuality Client Configuration and Management Application
+  description: >-
+    An application used to add customers to the CareQuality network, monitor various statistics related to document sharing, and manage the
+    customers over time.
+  thumbnail: ./assets/images/care-quality-design-1-thumbnail.png
+  detailsLink: /care-quality-design
+  detailsLinkLabel: More. . .
   detailsIsRoute: true
+  active: true
   tags:
-    - web development
+    - design
+
+
 -
   title: Summative Usability Testing
   description: >-
@@ -56,6 +63,22 @@
     - usability testing
 
 -
+  title: Acute Care Nursing Research
+  description: >-
+    Our team traveled to large hospitals across the country to gather user requirements for a mobile application to be used by nurses. Across
+    the team, we shadowed and interviewed over 100 nurses. I personally interviewed and shadowed 10 of those.
+  detailsLink: ./assets/Acute-Care-Nursing-Research.pdf
+  detailsIsRoute: false
+  thumbnail: ./assets/images/nursing-research-thumbnail.jpg
+  active: true
+  tags:
+    - user research
+
+
+
+
+
+-
   title: UI development Starter Kit
   description: >-
     A UI development kit that eases the effort needed to align with UX style guidelines.
@@ -67,17 +90,7 @@
   active: true
   tags:
     - web development
--
-  title: Acute Care Nursing Research
-  description: >-
-    Our team traveled to large hospitals across the country to gather user requirements for a mobile application to be used by nurses. Across
-    the team, we shadowed and interviewed over 100 nurses. I personally interviewed and shadowed 10 of those.
-  detailsLink: ./assets/Acute-Care-Nursing-Research.pdf
-  detailsIsRoute: false
-  thumbnail: ./assets/images/nursing-research-thumbnail.jpg
-  active: true
-  tags:
-    - user research
+
 
 -
   title: Water Valve Chart
@@ -95,6 +108,16 @@
     - design
 
 -
+  title: Data Synthesizer
+  description: An angular data service that generates custom data structures in realtime. Delivered as an NPM package.
+  detailsLink: /data-synthesizer
+  thumbnail: ./assets/images/data-synthesizer-thumbnail.png
+  active: true
+  detailsIsRoute: true
+  tags:
+    - web development
+
+-
   title: Health Dials
   description: >-
     Health dials are a design concept I created to facilitate quick, automatic interpretation of clinical metrics.  The
@@ -109,6 +132,22 @@
     - visualization
     - development
     - design
+
+
+-
+  title: Voice Assistant Coded Prototype
+  description: >-
+    Used Python (The Snips NLU library and Django), Angular, and Swift to create a clinical voice assistant that would allow our team to iteratively design our
+    clinical voice assistant. I coded custom views to allow dev and design teams to see the currently defined intents and slots in the training data set.
+  detailsLink: /voice-assistant
+  thumbnail: ./assets/images/voice-assistant-thumbnail.png
+  active: true
+  detailsIsRoute: true
+  tags:
+    - development
+    - AI
+
+
 
 -
   title: Opioid Data Visualization and Analysis
@@ -143,34 +182,6 @@
     - development
     - data generation
 
--
-  title: Web Application for Clinical Risk Cases
-  description: >-
-      I transformed a confusing and scattered process into a one-stop web application for
-      tracking the potential clinical risk items.  I gathered business requirements, interviewed a users,
-      created UI designs in Sketch, created the client application in Angular, and created the back end as an web API in Swift running on Ubuntu Linux.
-  detailsLink: /clinical-risk-items
-  thumbnail: ./assets/images/clinical-risk-assessmen-thumbnail.png
-  active: true
-  detailsIsRoute: true
-  tags:
-    - design
-    - development
-    - research
-
-
--
-  title: CareQuality Client Configuration and Management Application
-  description: >-
-    An application used to add customers to the CareQuality network, monitor various statistics related to document sharing, and manage the
-    customers over time.
-  thumbnail: ./assets/images/care-quality-design-1-thumbnail.png
-  detailsLink: /care-quality-design
-  detailsLinkLabel: More. . .
-  detailsIsRoute: true
-  active: true
-  tags:
-    - design
 
 
 -
@@ -183,7 +194,7 @@
   detailsLinkLabel: View Demo
   detailsIsRoute: false
   thumbnail: ./assets/images/intersection-diagram-thumbnail.png
-  active: true
+  active: false
   tags:
     - design
     - web development
@@ -218,18 +229,6 @@
   thumbnail:
   active: false
   detailsIsRoute:
--
-  title: Text Analysis of Clinical Notes
-  description: >-
-    Analyzed word patterns used in clinical notes obtained from mtsamples.com. Specifically, an n-gram analysis was done,
-    using 2, 3, and 4 word phrases to see what word combinations clinicians use most often across notes.
-  detailsLink: /demo/clinical-note-ngram/clinical-note-ngram.html
-  detailsLinkLabel: View Results
-  thumbnail: ./assets/images/quadgram-counts-thumbnail.png
-  active: true
-  detailsIsRoute: false
-  tags:
-    - data analysis
 
 -
   title: Using Analytics Data to Inform UI Design
@@ -257,7 +256,7 @@
   detailsLinkLabel: View Analyses
   detailsIsRoute: true
   thumbnail: ./assets/images/icon-study-1-thumbnail.png
-  active: true
+  active: false
   tags:
     - R
     - data analysis
@@ -299,13 +298,27 @@
     - web development
 
 -
+  title: Text Analysis of Clinical Notes
+  description: >-
+    Analyzed word patterns used in clinical notes obtained from mtsamples.com. Specifically, an n-gram analysis was done,
+    using 2, 3, and 4 word phrases to see what word combinations clinicians use most often across notes.
+  detailsLink: /demo/clinical-note-ngram/clinical-note-ngram.html
+  detailsLinkLabel: View Results
+  thumbnail: ./assets/images/quadgram-counts-thumbnail.png
+  active: false
+  detailsIsRoute: false
+  tags:
+    - data analysis
+
+
+-
   title: Sankey Diagram for Hospital Readmissions
   description: Uses a Sankey diagram to show the flow of patients over time, giving visual emphasis to readmissions.
   detailsLink: /demo/d3-readmissions-sankey/index.html
   detailsLinkLabel: View Demo
   detailsIsRoute: false
   thumbnail: ./assets/images/readmissions-sankey-smaller.png
-  active: true
+  active: false
   tags:
     - design
     - web development
@@ -329,7 +342,7 @@
   detailsLink: /demo/d3-med-rec/index.html
   detailsLinkLabel: View Demo
   thumbnail: ./assets/images/med-rec-2-smaller.png
-  active: true
+  active: false
 #-
 #  title: Common Reconciliation for Medications, Problems, & Allergies
 #  description: Effort to make the user experience for reconciliation consistent across products and across the various parts of the patient record.  Reconciliation is typically only performed for medications, however clinicians would benefit from design consistency for reconciling all of the parts of the patient record.
@@ -356,7 +369,7 @@
   description: Our UX team all created posters to be displayed throughout company offices, each poster having a different theme related to design and usability. My poster explains the concept of cognitive load for the layperson.
   detailsLink: /cognitive-load
   thumbnail: ./assets/images/CognitiveTax_poster_02_thumbnail.png
-  active: true
+  active: false
   detailsIsRoute: true
 #-
 # title: Avenel Web Site
