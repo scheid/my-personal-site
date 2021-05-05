@@ -5,65 +5,121 @@
   <h2 style="margin-bottom: 32px;">Community Configuration Manager</h2>
 
 
-
+<h3>What is it?</h3>
 <p>A tool used to configure data connections between our clients and "communities", which are entities that consume and aggregate patient data.</p>
 
 
-<p>The project manager contacted me about a design uplift that would involve a change in UI technology.</p>
-
-  <img src="assets/images/ccm-legacy-app.png"/>
-
-
-Obtained representative set of users to interview. Interviewed 4 users total
-  Informal and exploratory, although I did start with some seed questions as stimuli:
-
-What is a typical day?  Walk me through a good day. Walk me through a bad day.
-
-How much of your time is spent in CCM?  Do you use it for long periods of time, or short periods of time a lot throughout the entire day.
-
-What are your goals on a daily/weekly/etc basis?
-
-Do you feel like you already know what needs to be done when you log into CCM? Or does CCM help you figure out what you need to do?
-
-What other software or materials do you use to support CCM related tasks ? spreadsheets? Post it notes?
+<p>The project manager contacted me about a design uplift that would involve an update in legacy UI technology.</p>
 
 
 
-
-Lots and lots of notes.
-<img src="assets/images/ccm-interview-notes.jpg"/>
-
-
-2 primary personas
-
-  <img src="assets/images/persona-1.png"/>
-  <img src="assets/images/persona-2.png"/>
-support/troubleshooting
-initial configuration/maintenance
-
-
-
-Identified around 10 major themes/opportunities from these interviews
-
-
-Met again with project manager and users for an importance-difficulty ranking exercise to determine relative priorities of the themes.
-
-
-Started design and prototyping work
-
-Feature parity only in phase 1
-
-low hanging fruit: information hierarchy, global search, responsive design
-
-
-  <div>
-    <img src="assets/images/ccm-home.png"/>
+  <div class="row justify-content-center" style="margin-bottom: 32px;margin-top:32px">
+    <div class="col-md-6 col-10" >
+      <!--
+      <div style="background: white; padding: 8px;position: relative">
+        <div style="background: rgba(0,0,0,0.4);border-bottom: 1px solid #666666;width: calc(100% - 16px);position:absolute; top:8px; left: 8px;padding: 2px;color: white;font-size:11px;">Existing Legacy Application</div>
+        <img class="shadow" src="assets/images/ccm-legacy-app.png" style="width: 100%"/>
+      </div>
+-->
+      <img class="shadow" src="assets/images/ccm-legacy-app.png" style="width: 100%"/>
+      <div style="margin-top: 4px;color: #666666;font-size: 12px;">Existing Legacy Application</div>
+    </div>
   </div>
 
-next steps:
-Populate with realistic data to test design at scale
-User testing
-Deliver design as functional prototype
+
+  <h3>User Interviews</h3>
+
+  <p>I did not know how people used the existing application, or how they might want to use it.
+  To ensure the updated design would best fit the users' tasks, I obtained representative set of users to interview.
+  </p>
+
+  <p>I interviewed 4 users total, with the interviews being informal and exploratory. I used a set of seed questions as stimuli:</p>
+
+  <ul>
+    <li>"What is a typical day?  Walk me through a good day. Walk me through a bad day."</li>
+    <li>"How much of your time is spent in CCM?  Do you use it for long periods of time, or short periods of time a lot throughout the entire day."</li>
+    <li>"What are your goals on a daily/weekly/etc basis?" </li>
+    <li>"Do you feel like you already know what needs to be done when you log into CCM? Or does CCM help you figure out what you need to do?"</li>
+    <li>"What other software or materials do you use to support CCM related tasks ? spreadsheets? Post it notes?"</li>
+
+  </ul>
+
+
+<p>Then, I took lots and lots of notes.</p>
+
+
+  <div class="row justify-content-center" style="margin-bottom: 32px;margin-top:32px">
+    <div class="col-md-8 col-12" >
+      <img class="shadow" src="assets/images/ccm-interview-notes.jpg" style="width: 100%"/>
+    </div>
+  </div>
+
+
+<h3>Personas</h3>
+
+  <p>2 primary personas emerged based on the user interviews</p>
+
+  <div class="row justify-content-center">
+
+    <div class="col col-5 generic-card-2" >
+
+      <div class="row flex-nowrap">
+        <div class="col col-auto"><img style="height: 150px;" src="assets/images/persona-1.png"/></div>
+        <div class="col" style="padding-top: 32px;">    <div style="font-weight: bolder;margin-bottom: 16px">Support/troubleshooting</div>
+          <div>Primarily searches the logs for very specific values. Tries to piece together a story of an error based on a sequence of log entries for a client-conversation combination</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col col-5 generic-card-2" >
+
+      <div class="row flex-nowrap">
+        <div class="col col-auto"><img style="height: 150px;" src="assets/images/persona-2.png"/></div>
+        <div class="col" style="padding-top: 32px;">
+          <div style="font-weight: bolder;margin-bottom: 16px"> Initial configuration/maintenance</div>
+          <div>Creates new clients and communities in the system. Also modifies existing clients and communities when
+            protocols, URL's, etc. change. Does not ever look at logs.</div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+<h3>Themes / Opportunies</h3>
+
+
+<p>I identified around 10 major themes and opportunities for improved user experience from these interviews.</p>
+
+<p>Met again with the project manager and then the users for an importance-difficulty ranking exercise to determine relative priorities of the themes.
+  Based on the importance-difficulty results, in which a lot of items were high importance, but also high difficulty,
+  the team decided to push many of the items to phase 2 of the project.
+</p>
+
+
+  <div class="row justify-content-center" style="margin-bottom: 32px;margin-top:32px">
+    <div class="col-md-10 col-12" >
+      <img class="shadow" src="assets/images/ccm-importance-difficulty.png" style="width: 100%"/>
+    </div>
+  </div>
+
+<p>The phase 1 work would be mostly focused on ensuring current functionality was represented in the new UI design. I agreed with this,
+as all users indicated that the current functionality for configuring clients and communities, and for searching logs, was all needed.</p>
+
+  <p>My design focus was therefore on the information/visual hierarchy, global search design, and an intelligent responsive UI design
+  The screen shot below shows the redesigned landing page.
+  </p>
+
+
+  <div class="row justify-content-center" style="margin-bottom: 32px;margin-top:32px">
+    <div class="col-md-10 col-12" >
+      <img class="shadow" src="assets/images/ccm-home.png" style="width: 100%"/>
+    </div>
+  </div>
 
 
 </div>

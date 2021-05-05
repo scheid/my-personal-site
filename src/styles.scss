@@ -23,8 +23,8 @@ body {
 
 
 .shadow {
-  -webkit-box-shadow: 3px 3px 7px 1px rgba(0,0,0,0.15);
-  box-shadow: 3px 3px 7px 1px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.15);
+  box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.15);
 }
 
 
@@ -47,6 +47,7 @@ h2 {
 
 h3 {
   font-size: 22px;
+  margin-top:32px
 }
 
 
@@ -222,6 +223,18 @@ svg {
     max-width: 350px;
     padding: 16px;
   }
+
+
+}
+
+
+
+.generic-card-2 {
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  margin: 8px;
+
+
 
 
 }

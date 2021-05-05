@@ -24,7 +24,7 @@
 -
   title: Community Configuration Manager
   description: >-
-    Research and design work on an application for configuring data connections between clients and "communities"
+    Research and design on an application for configuring data connections between clients and communities
   thumbnail: ./assets/images/ccm-thumbnail.png
   detailsLink: /community-config-manager
   detailsLinkLabel: More. . .
@@ -53,7 +53,6 @@
   title: Web Application for Clinical Risk Cases
   description: >-
     I transformed a confusing and scattered process into a one-stop web application for
-    tracking the potential clinical risk items.  I gathered business requirements, interviewed a users,
     created UI designs in Sketch, created the client application in Angular, and created the back end as an web API in Swift running on Ubuntu Linux.
   detailsLink: /clinical-risk-items
   thumbnail: ./assets/images/clinical-risk-assessmen-thumbnail.png
@@ -271,7 +270,7 @@
   detailsLinkLabel: View Analyses
   detailsIsRoute: true
   thumbnail: ./assets/images/icon-study-1-thumbnail.png
-  active: false
+  active: true
   tags:
     - R
     - data analysis
