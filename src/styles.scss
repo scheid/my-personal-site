@@ -209,3 +209,20 @@ svg {
     }
 }
 
+
+
+
+.col-auto.generic-card-1 {
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  margin: 8px;
+
+  & > div:first-child {
+    width: 350px;
+    max-width: 350px;
+    padding: 16px;
+  }
+
+
+}
+

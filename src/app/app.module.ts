@@ -34,6 +34,7 @@ import { FilterActiveDesignsPipe } from './pipes/filter-active-designs.pipe';
 import { DetailsVoiceAssistantComponent } from './details-voice-assistant/details-voice-assistant.component';
 import { DetailsIconPreferenceComponent } from './details-icon-preference/details-icon-preference.component';
 import { DetailsHomecareSummativeTestingComponent } from './details-homecare-summative-testing/details-homecare-summative-testing.component';
+import { DetailsCcmComponent } from './details-ccm/details-ccm.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { DetailsHomecareSummativeTestingComponent } from './details-homecare-sum
     FilterActiveDesignsPipe,
     DetailsVoiceAssistantComponent,
     DetailsIconPreferenceComponent,
-    DetailsHomecareSummativeTestingComponent
+    DetailsHomecareSummativeTestingComponent,
+    DetailsCcmComponent
   ],
   imports: [
       BrowserModule,

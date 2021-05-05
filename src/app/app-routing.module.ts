@@ -26,6 +26,7 @@ import {CareQualityDesignComponent} from './care-quality-design/care-quality-des
 import {DetailsVoiceAssistantComponent} from './details-voice-assistant/details-voice-assistant.component';
 import {DetailsIconPreferenceComponent} from './details-icon-preference/details-icon-preference.component';
 import {DetailsHomecareSummativeTestingComponent} from './details-homecare-summative-testing/details-homecare-summative-testing.component';
+import {DetailsCcmComponent} from './details-ccm/details-ccm.component';
 
 // NOTE: you can use named router outlets in your html file, and refer to them here using the 'outlet' field with the name as the value.
 //     http://blog.angular-university.io/angular2-router/
@@ -55,6 +56,7 @@ const routes: Routes = [
     {path: 'voice-assistant', component: DetailsVoiceAssistantComponent},
     {path: 'icon-preference', component: DetailsIconPreferenceComponent},
     {path: 'homecare-summative-testing', component: DetailsHomecareSummativeTestingComponent},
+    {path: 'community-config-manager', component: DetailsCcmComponent},
 
     {path: '**', redirectTo: 'home'}
 

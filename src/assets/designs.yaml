@@ -22,19 +22,18 @@
 # include visual tags on each card: design, development, data visualization, research, statistical analyses
 
 -
-  title: Web Application for Clinical Risk Cases
+  title: Community Configuration Manager
   description: >-
-    I transformed a confusing and scattered process into a one-stop web application for
-    tracking the potential clinical risk items.  I gathered business requirements, interviewed a users,
-    created UI designs in Sketch, created the client application in Angular, and created the back end as an web API in Swift running on Ubuntu Linux.
-  detailsLink: /clinical-risk-items
-  thumbnail: ./assets/images/clinical-risk-assessmen-thumbnail.png
-  active: true
+    Research and design work on an application for configuring data connections between clients and "communities"
+  thumbnail: ./assets/images/ccm-thumbnail.png
+  detailsLink: /community-config-manager
+  detailsLinkLabel: More. . .
   detailsIsRoute: true
+  active: true
   tags:
     - design
-    - development
     - research
+
 
 -
   title: CareQuality Client Configuration and Management Application
@@ -48,6 +47,22 @@
   active: true
   tags:
     - design
+
+
+-
+  title: Web Application for Clinical Risk Cases
+  description: >-
+    I transformed a confusing and scattered process into a one-stop web application for
+    tracking the potential clinical risk items.  I gathered business requirements, interviewed a users,
+    created UI designs in Sketch, created the client application in Angular, and created the back end as an web API in Swift running on Ubuntu Linux.
+  detailsLink: /clinical-risk-items
+  thumbnail: ./assets/images/clinical-risk-assessmen-thumbnail.png
+  active: true
+  detailsIsRoute: true
+  tags:
+    - design
+    - development
+    - research
 
 
 -
